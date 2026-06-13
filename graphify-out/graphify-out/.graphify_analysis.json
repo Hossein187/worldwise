@@ -1,0 +1,141 @@
+{
+  "communities": {
+    "0": [
+      "app",
+      "app_app",
+      "components_countrieslist",
+      "components_countrieslist_countrieslist",
+      "components_form",
+      "components_form_converttoemoji",
+      "components_form_form",
+      "index",
+      "index_root",
+      "index_rootelement",
+      "pages_pagenotfound",
+      "pages_pagenotfound_pagenotfound"
+    ],
+    "1": [
+      "components_logo",
+      "components_logo_logo",
+      "components_pagenav",
+      "components_pagenav_pagenav",
+      "pages_homepage",
+      "pages_homepage_homepage",
+      "pages_login",
+      "pages_login_login",
+      "pages_pricing",
+      "pages_pricing_pricing",
+      "pages_product",
+      "pages_product_product"
+    ],
+    "2": [
+      "components_appnav",
+      "components_appnav_appnav",
+      "components_footer",
+      "components_footer_footer",
+      "components_map",
+      "components_map_map",
+      "components_sidebar",
+      "components_sidebar_sidebar",
+      "pages_applayout",
+      "pages_applayout_applayout"
+    ],
+    "3": [
+      "components_cityitem",
+      "components_cityitem_cityitem",
+      "components_citylist",
+      "components_citylist_citylist",
+      "components_spinner",
+      "components_spinner_spinner",
+      "components_spinnerfullpage",
+      "components_spinnerfullpage_spinnerfullpage"
+    ],
+    "4": [
+      "components_buttonback",
+      "components_buttonback_buttonback",
+      "components_city",
+      "components_city_city",
+      "components_city_formatdate"
+    ],
+    "5": [
+      "components_user",
+      "components_user_fake_user",
+      "components_user_user"
+    ],
+    "6": [
+      "components_countryitem",
+      "components_countryitem_countryitem"
+    ],
+    "7": [
+      "components_message",
+      "components_message_message"
+    ]
+  },
+  "cohesion": {
+    "0": 0.22727272727272727,
+    "1": 0.24242424242424243,
+    "2": 0.28888888888888886,
+    "3": 0.35714285714285715,
+    "4": 0.6,
+    "5": 0.6666666666666666,
+    "6": 1.0,
+    "7": 1.0
+  },
+  "gods": [
+    {
+      "id": "components_pagenav_pagenav",
+      "label": "PageNav()",
+      "degree": 5
+    },
+    {
+      "id": "components_logo_logo",
+      "label": "Logo()",
+      "degree": 3
+    },
+    {
+      "id": "components_spinner_spinner",
+      "label": "Spinner()",
+      "degree": 3
+    },
+    {
+      "id": "app_app",
+      "label": "App()",
+      "degree": 2
+    },
+    {
+      "id": "components_appnav_appnav",
+      "label": "AppNav()",
+      "degree": 2
+    },
+    {
+      "id": "components_buttonback_buttonback",
+      "label": "ButtonBack()",
+      "degree": 2
+    },
+    {
+      "id": "components_city_formatdate",
+      "label": "formatDate()",
+      "degree": 2
+    },
+    {
+      "id": "components_city_city",
+      "label": "City()",
+      "degree": 2
+    },
+    {
+      "id": "components_cityitem_cityitem",
+      "label": "CityItem()",
+      "degree": 2
+    },
+    {
+      "id": "components_citylist_citylist",
+      "label": "CityList()",
+      "degree": 2
+    }
+  ],
+  "surprises": [],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

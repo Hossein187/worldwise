@@ -1,0 +1,5 @@
+{
+  "file": "data/cities.json",
+  "port": 8000,
+  "delay": 500
+}

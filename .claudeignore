@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+.next/
+.cache/
+*.log
+.env
+.env.local
+.eslintcache
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.md
+public/
