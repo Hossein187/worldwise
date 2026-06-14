@@ -4,14 +4,54 @@
   "graph": {},
   "nodes": [
     {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app",
+      "community": 0,
+      "norm_label": "app.jsx"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "src_app_app",
+      "community": 0,
+      "norm_label": "app()"
+    },
+    {
+      "label": "CountriesList.jsx",
+      "file_type": "code",
+      "source_file": "src/components/CountriesList.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_countrieslist",
+      "community": 0,
+      "norm_label": "countrieslist.jsx"
+    },
+    {
+      "label": "CountriesList()",
+      "file_type": "code",
+      "source_file": "src/components/CountriesList.jsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "components_countrieslist_countrieslist",
+      "community": 0,
+      "norm_label": "countrieslist()"
+    },
+    {
       "label": "CityItem.jsx",
       "file_type": "code",
       "source_file": "src/components/CityItem.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_cityitem",
       "community": 5,
-      "norm_label": "cityitem.jsx"
+      "norm_label": "cityitem.jsx",
+      "id": "components_cityitem"
     },
     {
       "label": "formatDate()",
@@ -19,9 +59,9 @@
       "source_file": "src/components/CityItem.jsx",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "components_cityitem_formatdate",
       "community": 5,
-      "norm_label": "formatdate()"
+      "norm_label": "formatdate()",
+      "id": "components_cityitem_formatdate"
     },
     {
       "label": "CityItem()",
@@ -29,9 +69,9 @@
       "source_file": "src/components/CityItem.jsx",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "components_cityitem_cityitem",
       "community": 5,
-      "norm_label": "cityitem()"
+      "norm_label": "cityitem()",
+      "id": "components_cityitem_cityitem"
     },
     {
       "label": "CityList.jsx",
@@ -39,9 +79,9 @@
       "source_file": "src/components/CityList.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_citylist",
       "community": 5,
-      "norm_label": "citylist.jsx"
+      "norm_label": "citylist.jsx",
+      "id": "components_citylist"
     },
     {
       "label": "CityList()",
@@ -49,9 +89,9 @@
       "source_file": "src/components/CityList.jsx",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "components_citylist_citylist",
       "community": 5,
-      "norm_label": "citylist()"
+      "norm_label": "citylist()",
+      "id": "components_citylist_citylist"
     },
     {
       "label": "package.json",
@@ -494,26 +534,6 @@
       "id": "package_devdependencies_vite_plugin_eslint2"
     },
     {
-      "label": "App.jsx",
-      "file_type": "code",
-      "source_file": "src/App.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "app.jsx",
-      "id": "src_app"
-    },
-    {
-      "label": "App()",
-      "file_type": "code",
-      "source_file": "src/App.jsx",
-      "source_location": "L16",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "app()",
-      "id": "src_app_app"
-    },
-    {
       "label": "AppNav.jsx",
       "file_type": "code",
       "source_file": "src/components/AppNav.jsx",
@@ -582,46 +602,6 @@
       "community": 6,
       "norm_label": "city()",
       "id": "components_city_city"
-    },
-    {
-      "label": "CountriesList.jsx",
-      "file_type": "code",
-      "source_file": "src/components/CountriesList.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "countrieslist.jsx",
-      "id": "components_countrieslist"
-    },
-    {
-      "label": "CountriesList()",
-      "file_type": "code",
-      "source_file": "src/components/CountriesList.jsx",
-      "source_location": "L2",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "countrieslist()",
-      "id": "components_countrieslist_countrieslist"
-    },
-    {
-      "label": "CountryItem.jsx",
-      "file_type": "code",
-      "source_file": "src/components/CountryItem.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 9,
-      "norm_label": "countryitem.jsx",
-      "id": "components_countryitem"
-    },
-    {
-      "label": "CountryItem()",
-      "file_type": "code",
-      "source_file": "src/components/CountryItem.jsx",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 9,
-      "norm_label": "countryitem()",
-      "id": "components_countryitem_countryitem"
     },
     {
       "label": "Footer.jsx",
@@ -1006,6 +986,246 @@
   ],
   "links": [
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_citylist"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_citylist_citylist"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_countrieslist"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_countrieslist_countrieslist"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_form"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_form_form"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_applayout"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_applayout_applayout"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_homepage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_homepage_homepage"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_login"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_login_login"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_pagenotfound"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_pagenotfound_pagenotfound"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_pricing"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_pricing_pricing"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_product"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_product_product"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_index",
+      "target": "src_app"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_index",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/CountriesList.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_countrieslist",
+      "target": "components_countrieslist_countrieslist"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/CityItem.jsx",
@@ -1021,9 +1241,9 @@
       "source_file": "src/components/CityItem.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_cityitem",
-      "target": "components_cityitem_formatdate",
-      "confidence_score": 1.0
+      "target": "components_cityitem_formatdate"
     },
     {
       "relation": "imports_from",
@@ -1043,9 +1263,9 @@
       "source_file": "src/components/CityItem.jsx",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_cityitem_cityitem",
-      "target": "components_cityitem_formatdate",
-      "confidence_score": 1.0
+      "target": "components_cityitem_formatdate"
     },
     {
       "relation": "imports",
@@ -1089,28 +1309,6 @@
       "confidence_score": 1.0,
       "source": "components_citylist",
       "target": "components_spinner_spinner"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_citylist"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_citylist_citylist"
     },
     {
       "relation": "contains",
@@ -1533,214 +1731,6 @@
       "target": "package_devdependencies_vitejs_plugin_react"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_countrieslist"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_countrieslist_countrieslist"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_form"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_form_form"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_applayout"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_applayout_applayout"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_homepage"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_homepage_homepage"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_login"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_login_login"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_pagenotfound"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_pagenotfound_pagenotfound"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_pricing"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_pricing_pricing"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_product"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_product_product"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "src_app_app"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/index.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_index",
-      "target": "src_app"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/index.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_index",
-      "target": "src_app_app"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/AppNav.jsx",
@@ -1834,26 +1824,6 @@
       "confidence_score": 1.0,
       "source": "components_city_city",
       "target": "components_city_formatdate"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/CountriesList.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_countrieslist",
-      "target": "components_countrieslist_countrieslist"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/CountryItem.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_countryitem",
-      "target": "components_countryitem_countryitem"
     },
     {
       "relation": "contains",
@@ -2277,5 +2247,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "88b4696de3a543433febe4bf774736cee434bc86"
+  "built_at_commit": "a1aa1ac1e4ee4eaf051d0c5ff7ece06f7f4f481b"
 }
