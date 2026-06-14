@@ -49,7 +49,10 @@ function App() {
             path="cities"
             element={<CityList isLoading={isLoading} cities={cities} />}
           />
-          <Route path="countries" element={<CountriesList />} />
+          <Route
+            path="countries"
+            element={<CountriesList isLoading={isLoading} cities={cities} />}
+          />
           <Route path="form" element={<Form />} />
         </Route>
         <Route path="login" element={<Login />} />
