@@ -4,536 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "label": "package.json",
-      "file_type": "code",
-      "source_file": ".kilo/package.json",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "kilo_package",
-      "community": 8,
-      "norm_label": "package.json"
-    },
-    {
-      "label": "dependencies",
-      "file_type": "code",
-      "source_file": ".kilo/package.json",
-      "source_location": "L2",
-      "_origin": "ast",
-      "id": "kilo_package_dependencies",
-      "community": 8,
-      "norm_label": "dependencies"
-    },
-    {
-      "label": "@kilocode/plugin",
-      "file_type": "code",
-      "source_file": ".kilo/package.json",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "kilo_package_dependencies_kilocode_plugin",
-      "community": 8,
-      "norm_label": "@kilocode/plugin"
-    },
-    {
-      "label": "package.json",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "package",
-      "community": 2,
-      "norm_label": "package.json"
-    },
-    {
-      "label": "name",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L2",
-      "_origin": "ast",
-      "id": "package_name",
-      "community": 2,
-      "norm_label": "name"
-    },
-    {
-      "label": "version",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "package_version",
-      "community": 2,
-      "norm_label": "version"
-    },
-    {
-      "label": "description",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "package_description",
-      "community": 2,
-      "norm_label": "description"
-    },
-    {
-      "label": "main",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "package_main",
-      "community": 2,
-      "norm_label": "main"
-    },
-    {
-      "label": "scripts",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "package_scripts",
-      "community": 4,
-      "norm_label": "scripts"
-    },
-    {
-      "label": "test",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "package_scripts_test",
-      "community": 4,
-      "norm_label": "test"
-    },
-    {
-      "label": "start",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "package_scripts_start",
-      "community": 4,
-      "norm_label": "start"
-    },
-    {
-      "label": "dev",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "package_scripts_dev",
-      "community": 4,
-      "norm_label": "dev"
-    },
-    {
-      "label": "build",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "package_scripts_build",
-      "community": 4,
-      "norm_label": "build"
-    },
-    {
-      "label": "preview",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "package_scripts_preview",
-      "community": 4,
-      "norm_label": "preview"
-    },
-    {
-      "label": "lint",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "package_scripts_lint",
-      "community": 4,
-      "norm_label": "lint"
-    },
-    {
-      "label": "format",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "package_scripts_format",
-      "community": 4,
-      "norm_label": "format"
-    },
-    {
-      "label": "typecheck",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "package_scripts_typecheck",
-      "community": 4,
-      "norm_label": "typecheck"
-    },
-    {
-      "label": "server",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "package_scripts_server",
-      "community": 4,
-      "norm_label": "server"
-    },
-    {
-      "label": "keywords",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "package_keywords",
-      "community": 2,
-      "norm_label": "keywords"
-    },
-    {
-      "label": "author",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "package_author",
-      "community": 2,
-      "norm_label": "author"
-    },
-    {
-      "label": "license",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L19",
-      "_origin": "ast",
-      "id": "package_license",
-      "community": 2,
-      "norm_label": "license"
-    },
-    {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "package_type",
-      "community": 2,
-      "norm_label": "type"
-    },
-    {
-      "label": "private",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "_origin": "ast",
-      "id": "package_private",
-      "community": 2,
-      "norm_label": "private"
-    },
-    {
-      "label": "dependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "_origin": "ast",
-      "id": "package_dependencies",
-      "community": 2,
-      "norm_label": "dependencies"
-    },
-    {
-      "label": "json-server",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "_origin": "ast",
-      "id": "package_dependencies_json_server",
-      "community": 2,
-      "norm_label": "json-server"
-    },
-    {
-      "label": "react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L24",
-      "_origin": "ast",
-      "id": "package_dependencies_react",
-      "community": 2,
-      "norm_label": "react"
-    },
-    {
-      "label": "react-dom",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L25",
-      "_origin": "ast",
-      "id": "package_dependencies_react_dom",
-      "community": 2,
-      "norm_label": "react-dom"
-    },
-    {
-      "label": "react-router-dom",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "package_dependencies_react_router_dom",
-      "community": 2,
-      "norm_label": "react-router-dom"
-    },
-    {
-      "label": "devDependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L28",
-      "_origin": "ast",
-      "id": "package_devdependencies",
-      "community": 1,
-      "norm_label": "devdependencies"
-    },
-    {
-      "label": "@eslint/js",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L29",
-      "_origin": "ast",
-      "id": "package_devdependencies_eslint_js",
-      "community": 1,
-      "norm_label": "@eslint/js"
-    },
-    {
-      "label": "@types/react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L30",
-      "_origin": "ast",
-      "id": "package_devdependencies_types_react",
-      "community": 1,
-      "norm_label": "@types/react"
-    },
-    {
-      "label": "@types/react-dom",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L31",
-      "_origin": "ast",
-      "id": "package_devdependencies_types_react_dom",
-      "community": 1,
-      "norm_label": "@types/react-dom"
-    },
-    {
-      "label": "@vitejs/plugin-react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L32",
-      "_origin": "ast",
-      "id": "package_devdependencies_vitejs_plugin_react",
-      "community": 1,
-      "norm_label": "@vitejs/plugin-react"
-    },
-    {
-      "label": "babel-plugin-react-compiler",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L33",
-      "_origin": "ast",
-      "id": "package_devdependencies_babel_plugin_react_compiler",
-      "community": 1,
-      "norm_label": "babel-plugin-react-compiler"
-    },
-    {
-      "label": "cross-env",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L34",
-      "_origin": "ast",
-      "id": "package_devdependencies_cross_env",
-      "community": 1,
-      "norm_label": "cross-env"
-    },
-    {
-      "label": "eslint",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L35",
-      "_origin": "ast",
-      "id": "package_devdependencies_eslint",
-      "community": 1,
-      "norm_label": "eslint"
-    },
-    {
-      "label": "eslint-plugin-react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L36",
-      "_origin": "ast",
-      "id": "package_devdependencies_eslint_plugin_react",
-      "community": 1,
-      "norm_label": "eslint-plugin-react"
-    },
-    {
-      "label": "eslint-plugin-react-hooks",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L37",
-      "_origin": "ast",
-      "id": "package_devdependencies_eslint_plugin_react_hooks",
-      "community": 1,
-      "norm_label": "eslint-plugin-react-hooks"
-    },
-    {
-      "label": "eslint-plugin-react-refresh",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L38",
-      "_origin": "ast",
-      "id": "package_devdependencies_eslint_plugin_react_refresh",
-      "community": 1,
-      "norm_label": "eslint-plugin-react-refresh"
-    },
-    {
-      "label": "globals",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L39",
-      "_origin": "ast",
-      "id": "package_devdependencies_globals",
-      "community": 1,
-      "norm_label": "globals"
-    },
-    {
-      "label": "prop-types",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L40",
-      "_origin": "ast",
-      "id": "package_devdependencies_prop_types",
-      "community": 1,
-      "norm_label": "prop-types"
-    },
-    {
-      "label": "typescript",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L41",
-      "_origin": "ast",
-      "id": "package_devdependencies_typescript",
-      "community": 1,
-      "norm_label": "typescript"
-    },
-    {
-      "label": "vite",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L42",
-      "_origin": "ast",
-      "id": "package_devdependencies_vite",
-      "community": 1,
-      "norm_label": "vite"
-    },
-    {
-      "label": "vite-plugin-eslint2",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L43",
-      "_origin": "ast",
-      "id": "package_devdependencies_vite_plugin_eslint2",
-      "community": 1,
-      "norm_label": "vite-plugin-eslint2"
-    },
-    {
-      "label": "App.jsx",
-      "file_type": "code",
-      "source_file": "src/App.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "src_app",
-      "community": 0,
-      "norm_label": "app.jsx"
-    },
-    {
-      "label": "App()",
-      "file_type": "code",
-      "source_file": "src/App.jsx",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "src_app_app",
-      "community": 0,
-      "norm_label": "app()"
-    },
-    {
-      "label": "AppNav.jsx",
-      "file_type": "code",
-      "source_file": "src/components/AppNav.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "components_appnav",
-      "community": 3,
-      "norm_label": "appnav.jsx"
-    },
-    {
-      "label": "AppNav()",
-      "file_type": "code",
-      "source_file": "src/components/AppNav.jsx",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "components_appnav_appnav",
-      "community": 3,
-      "norm_label": "appnav()"
-    },
-    {
-      "label": "ButtonBack.jsx",
-      "file_type": "code",
-      "source_file": "src/components/ButtonBack.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "components_buttonback",
-      "community": 6,
-      "norm_label": "buttonback.jsx"
-    },
-    {
-      "label": "ButtonBack()",
-      "file_type": "code",
-      "source_file": "src/components/ButtonBack.jsx",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "components_buttonback_buttonback",
-      "community": 6,
-      "norm_label": "buttonback()"
-    },
-    {
-      "label": "City.jsx",
-      "file_type": "code",
-      "source_file": "src/components/City.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "components_city",
-      "community": 6,
-      "norm_label": "city.jsx"
-    },
-    {
-      "label": "formatDate()",
-      "file_type": "code",
-      "source_file": "src/components/City.jsx",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "components_city_formatdate",
-      "community": 6,
-      "norm_label": "formatdate()"
-    },
-    {
-      "label": "City()",
-      "file_type": "code",
-      "source_file": "src/components/City.jsx",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "components_city_city",
-      "community": 6,
-      "norm_label": "city()"
-    },
-    {
       "label": "CityItem.jsx",
       "file_type": "code",
       "source_file": "src/components/CityItem.jsx",
@@ -544,10 +14,20 @@
       "norm_label": "cityitem.jsx"
     },
     {
-      "label": "CityItem()",
+      "label": "formatDate()",
       "file_type": "code",
       "source_file": "src/components/CityItem.jsx",
       "source_location": "L3",
+      "_origin": "ast",
+      "id": "components_cityitem_formatdate",
+      "community": 5,
+      "norm_label": "formatdate()"
+    },
+    {
+      "label": "CityItem()",
+      "file_type": "code",
+      "source_file": "src/components/CityItem.jsx",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "components_cityitem_cityitem",
       "community": 5,
@@ -567,11 +47,541 @@
       "label": "CityList()",
       "file_type": "code",
       "source_file": "src/components/CityList.jsx",
-      "source_location": "L6",
+      "source_location": "L7",
       "_origin": "ast",
       "id": "components_citylist_citylist",
       "community": 5,
       "norm_label": "citylist()"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": ".kilo/package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "package.json",
+      "id": "kilo_package"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": ".kilo/package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "dependencies",
+      "id": "kilo_package_dependencies"
+    },
+    {
+      "label": "@kilocode/plugin",
+      "file_type": "code",
+      "source_file": ".kilo/package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 8,
+      "norm_label": "@kilocode/plugin",
+      "id": "kilo_package_dependencies_kilocode_plugin"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "package.json",
+      "id": "package"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "name",
+      "id": "package_name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "version",
+      "id": "package_version"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "description",
+      "id": "package_description"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "main",
+      "id": "package_main"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "scripts",
+      "id": "package_scripts"
+    },
+    {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "test",
+      "id": "package_scripts_test"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "start",
+      "id": "package_scripts_start"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "dev",
+      "id": "package_scripts_dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "build",
+      "id": "package_scripts_build"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "preview",
+      "id": "package_scripts_preview"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "lint",
+      "id": "package_scripts_lint"
+    },
+    {
+      "label": "format",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "format",
+      "id": "package_scripts_format"
+    },
+    {
+      "label": "typecheck",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "typecheck",
+      "id": "package_scripts_typecheck"
+    },
+    {
+      "label": "server",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "server",
+      "id": "package_scripts_server"
+    },
+    {
+      "label": "keywords",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "keywords",
+      "id": "package_keywords"
+    },
+    {
+      "label": "author",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "author",
+      "id": "package_author"
+    },
+    {
+      "label": "license",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "license",
+      "id": "package_license"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "type",
+      "id": "package_type"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "private",
+      "id": "package_private"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "dependencies",
+      "id": "package_dependencies"
+    },
+    {
+      "label": "json-server",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "json-server",
+      "id": "package_dependencies_json_server"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "react",
+      "id": "package_dependencies_react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "react-dom",
+      "id": "package_dependencies_react_dom"
+    },
+    {
+      "label": "react-router-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "react-router-dom",
+      "id": "package_dependencies_react_router_dom"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "devdependencies",
+      "id": "package_devdependencies"
+    },
+    {
+      "label": "@eslint/js",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "@eslint/js",
+      "id": "package_devdependencies_eslint_js"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "@types/react",
+      "id": "package_devdependencies_types_react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "@types/react-dom",
+      "id": "package_devdependencies_types_react_dom"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "@vitejs/plugin-react",
+      "id": "package_devdependencies_vitejs_plugin_react"
+    },
+    {
+      "label": "babel-plugin-react-compiler",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "babel-plugin-react-compiler",
+      "id": "package_devdependencies_babel_plugin_react_compiler"
+    },
+    {
+      "label": "cross-env",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "cross-env",
+      "id": "package_devdependencies_cross_env"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "eslint",
+      "id": "package_devdependencies_eslint"
+    },
+    {
+      "label": "eslint-plugin-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "eslint-plugin-react",
+      "id": "package_devdependencies_eslint_plugin_react"
+    },
+    {
+      "label": "eslint-plugin-react-hooks",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L37",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "eslint-plugin-react-hooks",
+      "id": "package_devdependencies_eslint_plugin_react_hooks"
+    },
+    {
+      "label": "eslint-plugin-react-refresh",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L38",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "eslint-plugin-react-refresh",
+      "id": "package_devdependencies_eslint_plugin_react_refresh"
+    },
+    {
+      "label": "globals",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "globals",
+      "id": "package_devdependencies_globals"
+    },
+    {
+      "label": "prop-types",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "prop-types",
+      "id": "package_devdependencies_prop_types"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "typescript",
+      "id": "package_devdependencies_typescript"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L42",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "vite",
+      "id": "package_devdependencies_vite"
+    },
+    {
+      "label": "vite-plugin-eslint2",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L43",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "vite-plugin-eslint2",
+      "id": "package_devdependencies_vite_plugin_eslint2"
+    },
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "app.jsx",
+      "id": "src_app"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "app()",
+      "id": "src_app_app"
+    },
+    {
+      "label": "AppNav.jsx",
+      "file_type": "code",
+      "source_file": "src/components/AppNav.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "appnav.jsx",
+      "id": "components_appnav"
+    },
+    {
+      "label": "AppNav()",
+      "file_type": "code",
+      "source_file": "src/components/AppNav.jsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "appnav()",
+      "id": "components_appnav_appnav"
+    },
+    {
+      "label": "ButtonBack.jsx",
+      "file_type": "code",
+      "source_file": "src/components/ButtonBack.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "buttonback.jsx",
+      "id": "components_buttonback"
+    },
+    {
+      "label": "ButtonBack()",
+      "file_type": "code",
+      "source_file": "src/components/ButtonBack.jsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "buttonback()",
+      "id": "components_buttonback_buttonback"
+    },
+    {
+      "label": "City.jsx",
+      "file_type": "code",
+      "source_file": "src/components/City.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "city.jsx",
+      "id": "components_city"
+    },
+    {
+      "label": "formatDate()",
+      "file_type": "code",
+      "source_file": "src/components/City.jsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "formatdate()",
+      "id": "components_city_formatdate"
+    },
+    {
+      "label": "City()",
+      "file_type": "code",
+      "source_file": "src/components/City.jsx",
+      "source_location": "L12",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "city()",
+      "id": "components_city_city"
     },
     {
       "label": "CountriesList.jsx",
@@ -579,9 +589,9 @@
       "source_file": "src/components/CountriesList.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_countrieslist",
       "community": 0,
-      "norm_label": "countrieslist.jsx"
+      "norm_label": "countrieslist.jsx",
+      "id": "components_countrieslist"
     },
     {
       "label": "CountriesList()",
@@ -589,9 +599,9 @@
       "source_file": "src/components/CountriesList.jsx",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "components_countrieslist_countrieslist",
       "community": 0,
-      "norm_label": "countrieslist()"
+      "norm_label": "countrieslist()",
+      "id": "components_countrieslist_countrieslist"
     },
     {
       "label": "CountryItem.jsx",
@@ -599,9 +609,9 @@
       "source_file": "src/components/CountryItem.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_countryitem",
       "community": 9,
-      "norm_label": "countryitem.jsx"
+      "norm_label": "countryitem.jsx",
+      "id": "components_countryitem"
     },
     {
       "label": "CountryItem()",
@@ -609,9 +619,9 @@
       "source_file": "src/components/CountryItem.jsx",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "components_countryitem_countryitem",
       "community": 9,
-      "norm_label": "countryitem()"
+      "norm_label": "countryitem()",
+      "id": "components_countryitem_countryitem"
     },
     {
       "label": "Footer.jsx",
@@ -619,9 +629,9 @@
       "source_file": "src/components/Footer.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_footer",
       "community": 3,
-      "norm_label": "footer.jsx"
+      "norm_label": "footer.jsx",
+      "id": "components_footer"
     },
     {
       "label": "Footer()",
@@ -629,9 +639,9 @@
       "source_file": "src/components/Footer.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_footer_footer",
       "community": 3,
-      "norm_label": "footer()"
+      "norm_label": "footer()",
+      "id": "components_footer_footer"
     },
     {
       "label": "Form.jsx",
@@ -639,9 +649,9 @@
       "source_file": "src/components/Form.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_form",
       "community": 0,
-      "norm_label": "form.jsx"
+      "norm_label": "form.jsx",
+      "id": "components_form"
     },
     {
       "label": "convertToEmoji()",
@@ -649,9 +659,9 @@
       "source_file": "src/components/Form.jsx",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "components_form_converttoemoji",
       "community": 0,
-      "norm_label": "converttoemoji()"
+      "norm_label": "converttoemoji()",
+      "id": "components_form_converttoemoji"
     },
     {
       "label": "Form()",
@@ -659,9 +669,9 @@
       "source_file": "src/components/Form.jsx",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "components_form_form",
       "community": 0,
-      "norm_label": "form()"
+      "norm_label": "form()",
+      "id": "components_form_form"
     },
     {
       "label": "Logo.jsx",
@@ -669,9 +679,9 @@
       "source_file": "src/components/Logo.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_logo",
       "community": 0,
-      "norm_label": "logo.jsx"
+      "norm_label": "logo.jsx",
+      "id": "components_logo"
     },
     {
       "label": "Logo()",
@@ -679,9 +689,9 @@
       "source_file": "src/components/Logo.jsx",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "components_logo_logo",
       "community": 0,
-      "norm_label": "logo()"
+      "norm_label": "logo()",
+      "id": "components_logo_logo"
     },
     {
       "label": "Map.jsx",
@@ -689,9 +699,9 @@
       "source_file": "src/components/Map.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_map",
       "community": 3,
-      "norm_label": "map.jsx"
+      "norm_label": "map.jsx",
+      "id": "components_map"
     },
     {
       "label": "Map()",
@@ -699,9 +709,9 @@
       "source_file": "src/components/Map.jsx",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "components_map_map",
       "community": 3,
-      "norm_label": "map()"
+      "norm_label": "map()",
+      "id": "components_map_map"
     },
     {
       "label": "Message.jsx",
@@ -709,9 +719,9 @@
       "source_file": "src/components/Message.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_message",
       "community": 10,
-      "norm_label": "message.jsx"
+      "norm_label": "message.jsx",
+      "id": "components_message"
     },
     {
       "label": "Message()",
@@ -719,9 +729,9 @@
       "source_file": "src/components/Message.jsx",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "components_message_message",
       "community": 10,
-      "norm_label": "message()"
+      "norm_label": "message()",
+      "id": "components_message_message"
     },
     {
       "label": "PageNav.jsx",
@@ -729,9 +739,9 @@
       "source_file": "src/components/PageNav.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_pagenav",
       "community": 0,
-      "norm_label": "pagenav.jsx"
+      "norm_label": "pagenav.jsx",
+      "id": "components_pagenav"
     },
     {
       "label": "PageNav()",
@@ -739,9 +749,9 @@
       "source_file": "src/components/PageNav.jsx",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "components_pagenav_pagenav",
       "community": 0,
-      "norm_label": "pagenav()"
+      "norm_label": "pagenav()",
+      "id": "components_pagenav_pagenav"
     },
     {
       "label": "Sidebar.jsx",
@@ -749,9 +759,9 @@
       "source_file": "src/components/Sidebar.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_sidebar",
       "community": 3,
-      "norm_label": "sidebar.jsx"
+      "norm_label": "sidebar.jsx",
+      "id": "components_sidebar"
     },
     {
       "label": "Sidebar()",
@@ -759,9 +769,9 @@
       "source_file": "src/components/Sidebar.jsx",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "components_sidebar_sidebar",
       "community": 3,
-      "norm_label": "sidebar()"
+      "norm_label": "sidebar()",
+      "id": "components_sidebar_sidebar"
     },
     {
       "label": "Spinner.jsx",
@@ -769,9 +779,9 @@
       "source_file": "src/components/Spinner.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_spinner",
       "community": 5,
-      "norm_label": "spinner.jsx"
+      "norm_label": "spinner.jsx",
+      "id": "components_spinner"
     },
     {
       "label": "Spinner()",
@@ -779,9 +789,9 @@
       "source_file": "src/components/Spinner.jsx",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "components_spinner_spinner",
       "community": 5,
-      "norm_label": "spinner()"
+      "norm_label": "spinner()",
+      "id": "components_spinner_spinner"
     },
     {
       "label": "SpinnerFullPage.jsx",
@@ -789,9 +799,9 @@
       "source_file": "src/components/SpinnerFullPage.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_spinnerfullpage",
       "community": 5,
-      "norm_label": "spinnerfullpage.jsx"
+      "norm_label": "spinnerfullpage.jsx",
+      "id": "components_spinnerfullpage"
     },
     {
       "label": "SpinnerFullPage()",
@@ -799,9 +809,9 @@
       "source_file": "src/components/SpinnerFullPage.jsx",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "components_spinnerfullpage_spinnerfullpage",
       "community": 5,
-      "norm_label": "spinnerfullpage()"
+      "norm_label": "spinnerfullpage()",
+      "id": "components_spinnerfullpage_spinnerfullpage"
     },
     {
       "label": "User.jsx",
@@ -809,9 +819,9 @@
       "source_file": "src/components/User.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_user",
       "community": 7,
-      "norm_label": "user.jsx"
+      "norm_label": "user.jsx",
+      "id": "components_user"
     },
     {
       "label": "FAKE_USER",
@@ -819,9 +829,9 @@
       "source_file": "src/components/User.jsx",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "components_user_fake_user",
       "community": 7,
-      "norm_label": "fake_user"
+      "norm_label": "fake_user",
+      "id": "components_user_fake_user"
     },
     {
       "label": "User()",
@@ -829,9 +839,9 @@
       "source_file": "src/components/User.jsx",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "components_user_user",
       "community": 7,
-      "norm_label": "user()"
+      "norm_label": "user()",
+      "id": "components_user_user"
     },
     {
       "label": "index.jsx",
@@ -839,9 +849,9 @@
       "source_file": "src/index.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_index",
       "community": 0,
-      "norm_label": "index.jsx"
+      "norm_label": "index.jsx",
+      "id": "src_index"
     },
     {
       "label": "rootElement",
@@ -849,9 +859,9 @@
       "source_file": "src/index.jsx",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "src_index_rootelement",
       "community": 0,
-      "norm_label": "rootelement"
+      "norm_label": "rootelement",
+      "id": "src_index_rootelement"
     },
     {
       "label": "root",
@@ -859,9 +869,9 @@
       "source_file": "src/index.jsx",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "src_index_root",
       "community": 0,
-      "norm_label": "root"
+      "norm_label": "root",
+      "id": "src_index_root"
     },
     {
       "label": "AppLayout.jsx",
@@ -869,9 +879,9 @@
       "source_file": "src/pages/AppLayout.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "pages_applayout",
       "community": 3,
-      "norm_label": "applayout.jsx"
+      "norm_label": "applayout.jsx",
+      "id": "pages_applayout"
     },
     {
       "label": "AppLayout()",
@@ -879,9 +889,9 @@
       "source_file": "src/pages/AppLayout.jsx",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "pages_applayout_applayout",
       "community": 3,
-      "norm_label": "applayout()"
+      "norm_label": "applayout()",
+      "id": "pages_applayout_applayout"
     },
     {
       "label": "Homepage.jsx",
@@ -889,9 +899,9 @@
       "source_file": "src/pages/Homepage.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "pages_homepage",
       "community": 0,
-      "norm_label": "homepage.jsx"
+      "norm_label": "homepage.jsx",
+      "id": "pages_homepage"
     },
     {
       "label": "Homepage()",
@@ -899,9 +909,9 @@
       "source_file": "src/pages/Homepage.jsx",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "pages_homepage_homepage",
       "community": 0,
-      "norm_label": "homepage()"
+      "norm_label": "homepage()",
+      "id": "pages_homepage_homepage"
     },
     {
       "label": "Login.jsx",
@@ -909,9 +919,9 @@
       "source_file": "src/pages/Login.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "pages_login",
       "community": 0,
-      "norm_label": "login.jsx"
+      "norm_label": "login.jsx",
+      "id": "pages_login"
     },
     {
       "label": "Login()",
@@ -919,9 +929,9 @@
       "source_file": "src/pages/Login.jsx",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "pages_login_login",
       "community": 0,
-      "norm_label": "login()"
+      "norm_label": "login()",
+      "id": "pages_login_login"
     },
     {
       "label": "PageNotFound.jsx",
@@ -929,9 +939,9 @@
       "source_file": "src/pages/PageNotFound.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "pages_pagenotfound",
       "community": 0,
-      "norm_label": "pagenotfound.jsx"
+      "norm_label": "pagenotfound.jsx",
+      "id": "pages_pagenotfound"
     },
     {
       "label": "PageNotFound()",
@@ -939,9 +949,9 @@
       "source_file": "src/pages/PageNotFound.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "pages_pagenotfound_pagenotfound",
       "community": 0,
-      "norm_label": "pagenotfound()"
+      "norm_label": "pagenotfound()",
+      "id": "pages_pagenotfound_pagenotfound"
     },
     {
       "label": "Pricing.jsx",
@@ -949,9 +959,9 @@
       "source_file": "src/pages/Pricing.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "pages_pricing",
       "community": 0,
-      "norm_label": "pricing.jsx"
+      "norm_label": "pricing.jsx",
+      "id": "pages_pricing"
     },
     {
       "label": "Pricing()",
@@ -959,9 +969,9 @@
       "source_file": "src/pages/Pricing.jsx",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "pages_pricing_pricing",
       "community": 0,
-      "norm_label": "pricing()"
+      "norm_label": "pricing()",
+      "id": "pages_pricing_pricing"
     },
     {
       "label": "Product.jsx",
@@ -969,9 +979,9 @@
       "source_file": "src/pages/Product.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "pages_product",
       "community": 0,
-      "norm_label": "product.jsx"
+      "norm_label": "product.jsx",
+      "id": "pages_product"
     },
     {
       "label": "Product()",
@@ -979,9 +989,9 @@
       "source_file": "src/pages/Product.jsx",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "pages_product_product",
       "community": 0,
-      "norm_label": "product()"
+      "norm_label": "product()",
+      "id": "pages_product_product"
     },
     {
       "label": "vite.config.js",
@@ -989,756 +999,21 @@
       "source_file": "vite.config.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "vite_config",
       "community": 11,
-      "norm_label": "vite.config.js"
+      "norm_label": "vite.config.js",
+      "id": "vite_config"
     }
   ],
   "links": [
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": ".kilo/package.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "kilo_package",
-      "target": "kilo_package_dependencies",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".kilo/package.json",
+      "source_file": "src/components/CityItem.jsx",
       "source_location": "L3",
       "weight": 1.0,
-      "source": "kilo_package_dependencies",
-      "target": "kilo_package_dependencies_kilocode_plugin",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "package",
-      "target": "package_author",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "package",
-      "target": "package_dependencies",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "package",
-      "target": "package_description",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L28",
-      "weight": 1.0,
-      "source": "package",
-      "target": "package_devdependencies",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "package",
-      "target": "package_keywords",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "package",
-      "target": "package_license",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "package",
-      "target": "package_main",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "package",
-      "target": "package_name",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "package",
-      "target": "package_private",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "package",
-      "target": "package_scripts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "package",
-      "target": "package_type",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "package",
-      "target": "package_version",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_build",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_dev",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_format",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_lint",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_preview",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_server",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_start",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_test",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "package_scripts",
-      "target": "package_scripts_typecheck",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_json_server",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_react",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L25",
-      "weight": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_react_dom",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "package_dependencies",
-      "target": "package_dependencies_react_router_dom",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L33",
-      "weight": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_babel_plugin_react_compiler",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_cross_env",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L35",
-      "weight": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_eslint",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_eslint_js",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_eslint_plugin_react",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_eslint_plugin_react_hooks",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L38",
-      "weight": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_eslint_plugin_react_refresh",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_globals",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_prop_types",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L30",
-      "weight": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_types_react",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L31",
-      "weight": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_types_react_dom",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L41",
-      "weight": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_typescript",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L42",
-      "weight": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_vite",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L43",
-      "weight": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_vite_plugin_eslint2",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_vitejs_plugin_react",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "components_citylist",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "components_citylist_citylist",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "components_countrieslist",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "components_countrieslist_countrieslist",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "components_form",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "components_form_form",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "pages_applayout",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "pages_applayout_applayout",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "pages_homepage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "pages_homepage_homepage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "pages_login",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "pages_login_login",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "pages_pagenotfound",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "pages_pagenotfound_pagenotfound",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "pages_pricing",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "pages_pricing_pricing",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "pages_product",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "pages_product_product",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "src_app_app",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/index.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "src_index",
-      "target": "src_app",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/index.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "src_index",
-      "target": "src_app_app",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/AppNav.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "components_appnav",
-      "target": "components_appnav_appnav",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Sidebar.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "components_sidebar",
-      "target": "components_appnav",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Sidebar.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "components_sidebar",
-      "target": "components_appnav_appnav",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/ButtonBack.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "components_buttonback",
-      "target": "components_buttonback_buttonback",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/City.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "components_city",
-      "target": "components_buttonback",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/City.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "components_city",
-      "target": "components_buttonback_buttonback",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/City.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "components_city",
-      "target": "components_city_city",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/City.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "components_city",
-      "target": "components_city_formatdate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/City.jsx",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "components_city_city",
-      "target": "components_city_formatdate",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "components_cityitem",
+      "target": "components_cityitem_cityitem"
     },
     {
       "relation": "contains",
@@ -1747,7 +1022,7 @@
       "source_location": "L3",
       "weight": 1.0,
       "source": "components_cityitem",
-      "target": "components_cityitem_cityitem",
+      "target": "components_cityitem_formatdate",
       "confidence_score": 1.0
     },
     {
@@ -1757,8 +1032,19 @@
       "source_file": "src/components/CityList.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_citylist",
-      "target": "components_cityitem",
+      "target": "components_cityitem"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/CityItem.jsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "components_cityitem_cityitem",
+      "target": "components_cityitem_formatdate",
       "confidence_score": 1.0
     },
     {
@@ -1768,9 +1054,9 @@
       "source_file": "src/components/CityList.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_citylist",
-      "target": "components_cityitem_cityitem",
-      "confidence_score": 1.0
+      "target": "components_cityitem_cityitem"
     },
     {
       "relation": "contains",
@@ -1778,9 +1064,9 @@
       "source_file": "src/components/CityList.jsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_citylist",
-      "target": "components_citylist_citylist",
-      "confidence_score": 1.0
+      "target": "components_citylist_citylist"
     },
     {
       "relation": "imports_from",
@@ -1789,9 +1075,9 @@
       "source_file": "src/components/CityList.jsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_citylist",
-      "target": "components_spinner",
-      "confidence_score": 1.0
+      "target": "components_spinner"
     },
     {
       "relation": "imports",
@@ -1800,9 +1086,754 @@
       "source_file": "src/components/CityList.jsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_citylist",
-      "target": "components_spinner_spinner",
-      "confidence_score": 1.0
+      "target": "components_spinner_spinner"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_citylist"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_citylist_citylist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".kilo/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "kilo_package",
+      "target": "kilo_package_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".kilo/package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "kilo_package_dependencies",
+      "target": "kilo_package_dependencies_kilocode_plugin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_author"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_description"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_devdependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_keywords"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_license"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_private"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_scripts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_type"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package",
+      "target": "package_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_build"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_dev"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_format"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_lint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_preview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_server"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_start"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_test"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_typecheck"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_json_server"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_router_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_babel_plugin_react_compiler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_cross_env"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_js"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_plugin_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_plugin_react_hooks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_plugin_react_refresh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_globals"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_prop_types"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_react_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_typescript"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vite"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vite_plugin_eslint2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vitejs_plugin_react"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_countrieslist"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_countrieslist_countrieslist"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_form"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_form_form"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_applayout"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_applayout_applayout"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_homepage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_homepage_homepage"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_login"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_login_login"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_pagenotfound"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_pagenotfound_pagenotfound"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_pricing"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_pricing_pricing"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_product"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_product_product"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_index",
+      "target": "src_app"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_index",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/AppNav.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_appnav",
+      "target": "components_appnav_appnav"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Sidebar.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_sidebar",
+      "target": "components_appnav"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Sidebar.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_sidebar",
+      "target": "components_appnav_appnav"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ButtonBack.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_buttonback",
+      "target": "components_buttonback_buttonback"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/City.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_city",
+      "target": "components_buttonback"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/City.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_city",
+      "target": "components_buttonback_buttonback"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/City.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_city",
+      "target": "components_city_city"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/City.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_city",
+      "target": "components_city_formatdate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/City.jsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_city_city",
+      "target": "components_city_formatdate"
     },
     {
       "relation": "contains",
@@ -1810,9 +1841,9 @@
       "source_file": "src/components/CountriesList.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_countrieslist",
-      "target": "components_countrieslist_countrieslist",
-      "confidence_score": 1.0
+      "target": "components_countrieslist_countrieslist"
     },
     {
       "relation": "contains",
@@ -1820,9 +1851,9 @@
       "source_file": "src/components/CountryItem.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_countryitem",
-      "target": "components_countryitem_countryitem",
-      "confidence_score": 1.0
+      "target": "components_countryitem_countryitem"
     },
     {
       "relation": "contains",
@@ -1830,9 +1861,9 @@
       "source_file": "src/components/Footer.jsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_footer",
-      "target": "components_footer_footer",
-      "confidence_score": 1.0
+      "target": "components_footer_footer"
     },
     {
       "relation": "imports_from",
@@ -1841,9 +1872,9 @@
       "source_file": "src/components/Sidebar.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sidebar",
-      "target": "components_footer",
-      "confidence_score": 1.0
+      "target": "components_footer"
     },
     {
       "relation": "imports",
@@ -1852,9 +1883,9 @@
       "source_file": "src/components/Sidebar.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sidebar",
-      "target": "components_footer_footer",
-      "confidence_score": 1.0
+      "target": "components_footer_footer"
     },
     {
       "relation": "contains",
@@ -1862,9 +1893,9 @@
       "source_file": "src/components/Form.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_form",
-      "target": "components_form_converttoemoji",
-      "confidence_score": 1.0
+      "target": "components_form_converttoemoji"
     },
     {
       "relation": "contains",
@@ -1872,9 +1903,9 @@
       "source_file": "src/components/Form.jsx",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_form",
-      "target": "components_form_form",
-      "confidence_score": 1.0
+      "target": "components_form_form"
     },
     {
       "relation": "contains",
@@ -1882,9 +1913,9 @@
       "source_file": "src/components/Logo.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_logo",
-      "target": "components_logo_logo",
-      "confidence_score": 1.0
+      "target": "components_logo_logo"
     },
     {
       "relation": "imports_from",
@@ -1893,9 +1924,9 @@
       "source_file": "src/components/PageNav.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_pagenav",
-      "target": "components_logo",
-      "confidence_score": 1.0
+      "target": "components_logo"
     },
     {
       "relation": "imports_from",
@@ -1904,9 +1935,9 @@
       "source_file": "src/components/Sidebar.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sidebar",
-      "target": "components_logo",
-      "confidence_score": 1.0
+      "target": "components_logo"
     },
     {
       "relation": "imports",
@@ -1915,9 +1946,9 @@
       "source_file": "src/components/PageNav.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_pagenav",
-      "target": "components_logo_logo",
-      "confidence_score": 1.0
+      "target": "components_logo_logo"
     },
     {
       "relation": "imports",
@@ -1926,9 +1957,9 @@
       "source_file": "src/components/Sidebar.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sidebar",
-      "target": "components_logo_logo",
-      "confidence_score": 1.0
+      "target": "components_logo_logo"
     },
     {
       "relation": "contains",
@@ -1936,9 +1967,9 @@
       "source_file": "src/components/Map.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_map",
-      "target": "components_map_map",
-      "confidence_score": 1.0
+      "target": "components_map_map"
     },
     {
       "relation": "imports_from",
@@ -1947,9 +1978,9 @@
       "source_file": "src/pages/AppLayout.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_applayout",
-      "target": "components_map",
-      "confidence_score": 1.0
+      "target": "components_map"
     },
     {
       "relation": "imports",
@@ -1958,9 +1989,9 @@
       "source_file": "src/pages/AppLayout.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_applayout",
-      "target": "components_map_map",
-      "confidence_score": 1.0
+      "target": "components_map_map"
     },
     {
       "relation": "contains",
@@ -1968,9 +1999,9 @@
       "source_file": "src/components/Message.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_message",
-      "target": "components_message_message",
-      "confidence_score": 1.0
+      "target": "components_message_message"
     },
     {
       "relation": "contains",
@@ -1978,9 +2009,9 @@
       "source_file": "src/components/PageNav.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_pagenav",
-      "target": "components_pagenav_pagenav",
-      "confidence_score": 1.0
+      "target": "components_pagenav_pagenav"
     },
     {
       "relation": "imports_from",
@@ -1989,9 +2020,9 @@
       "source_file": "src/pages/Homepage.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_homepage",
-      "target": "components_pagenav",
-      "confidence_score": 1.0
+      "target": "components_pagenav"
     },
     {
       "relation": "imports_from",
@@ -2000,9 +2031,9 @@
       "source_file": "src/pages/Login.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_login",
-      "target": "components_pagenav",
-      "confidence_score": 1.0
+      "target": "components_pagenav"
     },
     {
       "relation": "imports_from",
@@ -2011,9 +2042,9 @@
       "source_file": "src/pages/Pricing.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_pricing",
-      "target": "components_pagenav",
-      "confidence_score": 1.0
+      "target": "components_pagenav"
     },
     {
       "relation": "imports_from",
@@ -2022,9 +2053,9 @@
       "source_file": "src/pages/Product.jsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_product",
-      "target": "components_pagenav",
-      "confidence_score": 1.0
+      "target": "components_pagenav"
     },
     {
       "relation": "imports",
@@ -2033,9 +2064,9 @@
       "source_file": "src/pages/Homepage.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_homepage",
-      "target": "components_pagenav_pagenav",
-      "confidence_score": 1.0
+      "target": "components_pagenav_pagenav"
     },
     {
       "relation": "imports",
@@ -2044,9 +2075,9 @@
       "source_file": "src/pages/Login.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_login",
-      "target": "components_pagenav_pagenav",
-      "confidence_score": 1.0
+      "target": "components_pagenav_pagenav"
     },
     {
       "relation": "imports",
@@ -2055,9 +2086,9 @@
       "source_file": "src/pages/Pricing.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_pricing",
-      "target": "components_pagenav_pagenav",
-      "confidence_score": 1.0
+      "target": "components_pagenav_pagenav"
     },
     {
       "relation": "imports",
@@ -2066,9 +2097,9 @@
       "source_file": "src/pages/Product.jsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_product",
-      "target": "components_pagenav_pagenav",
-      "confidence_score": 1.0
+      "target": "components_pagenav_pagenav"
     },
     {
       "relation": "contains",
@@ -2076,9 +2107,9 @@
       "source_file": "src/components/Sidebar.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sidebar",
-      "target": "components_sidebar_sidebar",
-      "confidence_score": 1.0
+      "target": "components_sidebar_sidebar"
     },
     {
       "relation": "imports_from",
@@ -2087,9 +2118,9 @@
       "source_file": "src/pages/AppLayout.jsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_applayout",
-      "target": "components_sidebar",
-      "confidence_score": 1.0
+      "target": "components_sidebar"
     },
     {
       "relation": "imports",
@@ -2098,9 +2129,9 @@
       "source_file": "src/pages/AppLayout.jsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_applayout",
-      "target": "components_sidebar_sidebar",
-      "confidence_score": 1.0
+      "target": "components_sidebar_sidebar"
     },
     {
       "relation": "contains",
@@ -2108,9 +2139,9 @@
       "source_file": "src/components/Spinner.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_spinner",
-      "target": "components_spinner_spinner",
-      "confidence_score": 1.0
+      "target": "components_spinner_spinner"
     },
     {
       "relation": "imports_from",
@@ -2119,9 +2150,9 @@
       "source_file": "src/components/SpinnerFullPage.jsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_spinnerfullpage",
-      "target": "components_spinner",
-      "confidence_score": 1.0
+      "target": "components_spinner"
     },
     {
       "relation": "imports",
@@ -2130,9 +2161,9 @@
       "source_file": "src/components/SpinnerFullPage.jsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_spinnerfullpage",
-      "target": "components_spinner_spinner",
-      "confidence_score": 1.0
+      "target": "components_spinner_spinner"
     },
     {
       "relation": "contains",
@@ -2140,9 +2171,9 @@
       "source_file": "src/components/SpinnerFullPage.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_spinnerfullpage",
-      "target": "components_spinnerfullpage_spinnerfullpage",
-      "confidence_score": 1.0
+      "target": "components_spinnerfullpage_spinnerfullpage"
     },
     {
       "relation": "contains",
@@ -2150,9 +2181,9 @@
       "source_file": "src/components/User.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_user",
-      "target": "components_user_fake_user",
-      "confidence_score": 1.0
+      "target": "components_user_fake_user"
     },
     {
       "relation": "contains",
@@ -2160,9 +2191,9 @@
       "source_file": "src/components/User.jsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_user",
-      "target": "components_user_user",
-      "confidence_score": 1.0
+      "target": "components_user_user"
     },
     {
       "relation": "contains",
@@ -2170,9 +2201,9 @@
       "source_file": "src/index.jsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_index",
-      "target": "src_index_root",
-      "confidence_score": 1.0
+      "target": "src_index_root"
     },
     {
       "relation": "contains",
@@ -2180,9 +2211,9 @@
       "source_file": "src/index.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_index",
-      "target": "src_index_rootelement",
-      "confidence_score": 1.0
+      "target": "src_index_rootelement"
     },
     {
       "relation": "contains",
@@ -2190,9 +2221,9 @@
       "source_file": "src/pages/AppLayout.jsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_applayout",
-      "target": "pages_applayout_applayout",
-      "confidence_score": 1.0
+      "target": "pages_applayout_applayout"
     },
     {
       "relation": "contains",
@@ -2200,9 +2231,9 @@
       "source_file": "src/pages/Homepage.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_homepage",
-      "target": "pages_homepage_homepage",
-      "confidence_score": 1.0
+      "target": "pages_homepage_homepage"
     },
     {
       "relation": "contains",
@@ -2210,9 +2241,9 @@
       "source_file": "src/pages/Login.jsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_login",
-      "target": "pages_login_login",
-      "confidence_score": 1.0
+      "target": "pages_login_login"
     },
     {
       "relation": "contains",
@@ -2220,9 +2251,9 @@
       "source_file": "src/pages/PageNotFound.jsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_pagenotfound",
-      "target": "pages_pagenotfound_pagenotfound",
-      "confidence_score": 1.0
+      "target": "pages_pagenotfound_pagenotfound"
     },
     {
       "relation": "contains",
@@ -2230,9 +2261,9 @@
       "source_file": "src/pages/Pricing.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_pricing",
-      "target": "pages_pricing_pricing",
-      "confidence_score": 1.0
+      "target": "pages_pricing_pricing"
     },
     {
       "relation": "contains",
@@ -2240,10 +2271,11 @@
       "source_file": "src/pages/Product.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_product",
-      "target": "pages_product_product",
-      "confidence_score": 1.0
+      "target": "pages_product_product"
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "88b4696de3a543433febe4bf774736cee434bc86"
 }

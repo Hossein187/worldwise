@@ -1,12 +1,18 @@
-# Graph Report - .  (2026-06-14)
+# Graph Report - WorlldWise  (2026-06-14)
 
 ## Corpus Check
-- Corpus is ~29,692 words - fits in a single context window. You may not need a graph.
+- 33 files · ~29,677 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 99 nodes · 120 edges · 12 communities (10 shown, 2 thin omitted)
+- 100 nodes · 122 edges · 12 communities (10 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `88b4696d`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Pages and App|Pages and App]]
@@ -22,14 +28,14 @@
 ## God Nodes (most connected - your core abstractions)
 1. `scripts` - 10 edges
 2. `PageNav()` - 5 edges
-3. `Logo()` - 3 edges
-4. `Spinner()` - 3 edges
-5. `App()` - 2 edges
-6. `AppNav()` - 2 edges
-7. `ButtonBack()` - 2 edges
-8. `formatDate()` - 2 edges
-9. `City()` - 2 edges
-10. `CityItem()` - 2 edges
+3. `CityItem()` - 3 edges
+4. `Logo()` - 3 edges
+5. `Spinner()` - 3 edges
+6. `formatDate()` - 2 edges
+7. `CityList()` - 2 edges
+8. `App()` - 2 edges
+9. `AppNav()` - 2 edges
+10. `ButtonBack()` - 2 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -60,8 +66,8 @@ Cohesion: 0.20
 Nodes (10): scripts, build, dev, format, lint, preview, server, start (+2 more)
 
 ### Community 5 - "City List Components"
-Cohesion: 0.36
-Nodes (3): CityItem(), CityList(), Spinner()
+Cohesion: 0.33
+Nodes (4): CityItem(), formatDate(), CityList(), Spinner()
 
 ### Community 6 - "City Detail"
 Cohesion: 0.60
@@ -76,9 +82,9 @@ Nodes (3): ButtonBack(), City(), formatDate()
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `devDependencies` connect `Dev Dependencies` to `Package Config`?**
-  _High betweenness centrality (0.101) - this node is a cross-community bridge._
+  _High betweenness centrality (0.099) - this node is a cross-community bridge._
 - **Why does `scripts` connect `Build Scripts` to `Package Config`?**
-  _High betweenness centrality (0.066) - this node is a cross-community bridge._
+  _High betweenness centrality (0.065) - this node is a cross-community bridge._
 - **What connects `@kilocode/plugin`, `name`, `version` to the rest of the system?**
   _41 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Pages and App` be split into smaller, more focused modules?**
