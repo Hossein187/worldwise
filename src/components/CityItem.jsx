@@ -5,8 +5,8 @@ function CityItem({ city }) {
   return (
     <li className={styles.cityItem}>
       <span className={styles.emoji}>{emoji}</span>
-      <span className={styles.name}>{cityName}</span>
-      <span className={styles.date}>{date}</span>
+      <h3 className={styles.name}>{cityName}</h3>
+      <time className={styles.date}>{date}</time>
     </li>
   );
 }
