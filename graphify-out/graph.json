@@ -17,11 +17,61 @@
       "label": "App()",
       "file_type": "code",
       "source_file": "src/App.jsx",
-      "source_location": "L16",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "src_app_app",
-      "community": 0,
+      "community": 9,
       "norm_label": "app()"
+    },
+    {
+      "label": "City.jsx",
+      "file_type": "code",
+      "source_file": "src/components/City.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_city",
+      "community": 6,
+      "norm_label": "city.jsx"
+    },
+    {
+      "label": "formatDate()",
+      "file_type": "code",
+      "source_file": "src/components/City.jsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "components_city_formatdate",
+      "community": 6,
+      "norm_label": "formatdate()"
+    },
+    {
+      "label": "City()",
+      "file_type": "code",
+      "source_file": "src/components/City.jsx",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "components_city_city",
+      "community": 6,
+      "norm_label": "city()"
+    },
+    {
+      "label": "CountriesItem.jsx",
+      "file_type": "code",
+      "source_file": "src/components/CountriesItem.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_countriesitem",
+      "community": 12,
+      "norm_label": "countriesitem.jsx"
+    },
+    {
+      "label": "CountryItem()",
+      "file_type": "code",
+      "source_file": "src/components/CountriesItem.jsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "components_countriesitem_countryitem",
+      "community": 12,
+      "norm_label": "countryitem()"
     },
     {
       "label": "CountriesList.jsx",
@@ -29,9 +79,9 @@
       "source_file": "src/components/CountriesList.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_countrieslist",
       "community": 0,
-      "norm_label": "countrieslist.jsx"
+      "norm_label": "countrieslist.jsx",
+      "id": "components_countrieslist"
     },
     {
       "label": "CountriesList()",
@@ -39,9 +89,9 @@
       "source_file": "src/components/CountriesList.jsx",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "components_countrieslist_countrieslist",
       "community": 0,
-      "norm_label": "countrieslist()"
+      "norm_label": "countrieslist()",
+      "id": "components_countrieslist_countrieslist"
     },
     {
       "label": "CityItem.jsx",
@@ -574,36 +624,6 @@
       "id": "components_buttonback_buttonback"
     },
     {
-      "label": "City.jsx",
-      "file_type": "code",
-      "source_file": "src/components/City.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "city.jsx",
-      "id": "components_city"
-    },
-    {
-      "label": "formatDate()",
-      "file_type": "code",
-      "source_file": "src/components/City.jsx",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "formatdate()",
-      "id": "components_city_formatdate"
-    },
-    {
-      "label": "City()",
-      "file_type": "code",
-      "source_file": "src/components/City.jsx",
-      "source_location": "L12",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "city()",
-      "id": "components_city_city"
-    },
-    {
       "label": "Footer.jsx",
       "file_type": "code",
       "source_file": "src/components/Footer.jsx",
@@ -829,7 +849,7 @@
       "source_file": "src/index.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 9,
       "norm_label": "index.jsx",
       "id": "src_index"
     },
@@ -839,7 +859,7 @@
       "source_file": "src/index.jsx",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 0,
+      "community": 9,
       "norm_label": "rootelement",
       "id": "src_index_rootelement"
     },
@@ -849,7 +869,7 @@
       "source_file": "src/index.jsx",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 0,
+      "community": 9,
       "norm_label": "root",
       "id": "src_index_root"
     },
@@ -985,6 +1005,28 @@
     }
   ],
   "links": [
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_city",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_city_city",
+      "confidence_score": 1.0
+    },
     {
       "relation": "imports_from",
       "context": "import",
@@ -1214,6 +1256,69 @@
       "confidence_score": 1.0,
       "source": "src_index",
       "target": "src_app_app"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/City.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_city",
+      "target": "components_buttonback"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/City.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_city",
+      "target": "components_buttonback_buttonback"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/City.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_city",
+      "target": "components_city_city"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/City.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_city",
+      "target": "components_city_formatdate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/City.jsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_city_city",
+      "target": "components_city_formatdate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/CountriesItem.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_countriesitem",
+      "target": "components_countriesitem_countryitem",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1773,59 +1878,6 @@
       "target": "components_buttonback_buttonback"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/City.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_city",
-      "target": "components_buttonback"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/City.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_city",
-      "target": "components_buttonback_buttonback"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/City.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_city",
-      "target": "components_city_city"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/City.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_city",
-      "target": "components_city_formatdate"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/City.jsx",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_city_city",
-      "target": "components_city_formatdate"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/Footer.jsx",
@@ -2247,5 +2299,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "a1aa1ac1e4ee4eaf051d0c5ff7ece06f7f4f481b"
+  "built_at_commit": "5e707bbe6a3698e5c50c462a3ff666f679ce4d4f"
 }

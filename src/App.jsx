@@ -18,6 +18,9 @@ function App() {
   const [cities, setCities] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
+  const deleteCity = (id) =>
+    setCities((cities) => cities.filter((city) => city.id !== id));
+
   useEffect(() => {
     async function fetchData() {
       try {
@@ -48,7 +51,13 @@ function App() {
           />
           <Route
             path="cities"
-            element={<CityList isLoading={isLoading} cities={cities} />}
+            element={
+              <CityList
+                isLoading={isLoading}
+                cities={cities}
+                deleteCity={deleteCity}
+              />
+            }
           />
           <Route path="cities/:id" element={<City cities={cities} />} />
           <Route

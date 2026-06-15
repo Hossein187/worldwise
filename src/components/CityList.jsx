@@ -4,7 +4,7 @@ import CityItem from "./CityItem";
 
 import styles from "./CityList.module.css";
 
-function CityList({ isLoading, cities }) {
+function CityList({ isLoading, cities, deleteCity }) {
   if (isLoading) return <Spinner />;
   if (!cities.length)
     return (
@@ -13,7 +13,7 @@ function CityList({ isLoading, cities }) {
   return (
     <ul className={styles.cityList}>
       {cities.map((city) => (
-        <CityItem city={city} key={city.id} />
+        <CityItem city={city} key={city.id} deleteCity={deleteCity} />
       ))}
     </ul>
   );

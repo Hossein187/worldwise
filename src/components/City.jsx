@@ -13,7 +13,6 @@ const formatDate = (date) =>
 function City({ cities }) {
   const { id } = useParams();
   const currentCity = cities.find((city) => city.id === id);
-
   if (!currentCity) return null;
 
   const { cityName, emoji, date, notes } = currentCity;
