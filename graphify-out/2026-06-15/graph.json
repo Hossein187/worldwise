@@ -20,28 +20,8 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_app_app",
-      "community": 0,
+      "community": 9,
       "norm_label": "app()"
-    },
-    {
-      "label": "ButtonBack.jsx",
-      "file_type": "code",
-      "source_file": "src/components/ButtonBack.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "components_buttonback",
-      "community": 6,
-      "norm_label": "buttonback.jsx"
-    },
-    {
-      "label": "ButtonBack()",
-      "file_type": "code",
-      "source_file": "src/components/ButtonBack.jsx",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "components_buttonback_buttonback",
-      "community": 6,
-      "norm_label": "buttonback()"
     },
     {
       "label": "City.jsx",
@@ -74,84 +54,14 @@
       "norm_label": "city()"
     },
     {
-      "label": "CityItem.jsx",
-      "file_type": "code",
-      "source_file": "src/components/CityItem.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "components_cityitem",
-      "community": 5,
-      "norm_label": "cityitem.jsx"
-    },
-    {
-      "label": "formatDate()",
-      "file_type": "code",
-      "source_file": "src/components/CityItem.jsx",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "components_cityitem_formatdate",
-      "community": 5,
-      "norm_label": "formatdate()"
-    },
-    {
-      "label": "CityItem()",
-      "file_type": "code",
-      "source_file": "src/components/CityItem.jsx",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "components_cityitem_cityitem",
-      "community": 5,
-      "norm_label": "cityitem()"
-    },
-    {
-      "label": "CityList.jsx",
-      "file_type": "code",
-      "source_file": "src/components/CityList.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "components_citylist",
-      "community": 5,
-      "norm_label": "citylist.jsx"
-    },
-    {
-      "label": "CityList()",
-      "file_type": "code",
-      "source_file": "src/components/CityList.jsx",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "components_citylist_citylist",
-      "community": 5,
-      "norm_label": "citylist()"
-    },
-    {
-      "label": "Homepage.jsx",
-      "file_type": "code",
-      "source_file": "src/pages/Homepage.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "pages_homepage",
-      "community": 0,
-      "norm_label": "homepage.jsx"
-    },
-    {
-      "label": "Homepage()",
-      "file_type": "code",
-      "source_file": "src/pages/Homepage.jsx",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "pages_homepage_homepage",
-      "community": 0,
-      "norm_label": "homepage()"
-    },
-    {
       "label": "CountriesItem.jsx",
       "file_type": "code",
       "source_file": "src/components/CountriesItem.jsx",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "components_countriesitem",
       "community": 12,
-      "norm_label": "countriesitem.jsx",
-      "id": "components_countriesitem"
+      "norm_label": "countriesitem.jsx"
     },
     {
       "label": "CountryItem()",
@@ -159,9 +69,9 @@
       "source_file": "src/components/CountriesItem.jsx",
       "source_location": "L3",
       "_origin": "ast",
+      "id": "components_countriesitem_countryitem",
       "community": 12,
-      "norm_label": "countryitem()",
-      "id": "components_countriesitem_countryitem"
+      "norm_label": "countryitem()"
     },
     {
       "label": "CountriesList.jsx",
@@ -182,6 +92,56 @@
       "community": 0,
       "norm_label": "countrieslist()",
       "id": "components_countrieslist_countrieslist"
+    },
+    {
+      "label": "CityItem.jsx",
+      "file_type": "code",
+      "source_file": "src/components/CityItem.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "cityitem.jsx",
+      "id": "components_cityitem"
+    },
+    {
+      "label": "formatDate()",
+      "file_type": "code",
+      "source_file": "src/components/CityItem.jsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "formatdate()",
+      "id": "components_cityitem_formatdate"
+    },
+    {
+      "label": "CityItem()",
+      "file_type": "code",
+      "source_file": "src/components/CityItem.jsx",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "cityitem()",
+      "id": "components_cityitem_cityitem"
+    },
+    {
+      "label": "CityList.jsx",
+      "file_type": "code",
+      "source_file": "src/components/CityList.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "citylist.jsx",
+      "id": "components_citylist"
+    },
+    {
+      "label": "CityList()",
+      "file_type": "code",
+      "source_file": "src/components/CityList.jsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "citylist()",
+      "id": "components_citylist_citylist"
     },
     {
       "label": "package.json",
@@ -644,6 +604,26 @@
       "id": "components_appnav_appnav"
     },
     {
+      "label": "ButtonBack.jsx",
+      "file_type": "code",
+      "source_file": "src/components/ButtonBack.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "buttonback.jsx",
+      "id": "components_buttonback"
+    },
+    {
+      "label": "ButtonBack()",
+      "file_type": "code",
+      "source_file": "src/components/ButtonBack.jsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "buttonback()",
+      "id": "components_buttonback_buttonback"
+    },
+    {
       "label": "Footer.jsx",
       "file_type": "code",
       "source_file": "src/components/Footer.jsx",
@@ -869,7 +849,7 @@
       "source_file": "src/index.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 9,
       "norm_label": "index.jsx",
       "id": "src_index"
     },
@@ -879,7 +859,7 @@
       "source_file": "src/index.jsx",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 0,
+      "community": 9,
       "norm_label": "rootelement",
       "id": "src_index_rootelement"
     },
@@ -889,7 +869,7 @@
       "source_file": "src/index.jsx",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 0,
+      "community": 9,
       "norm_label": "root",
       "id": "src_index_root"
     },
@@ -912,6 +892,26 @@
       "community": 3,
       "norm_label": "applayout()",
       "id": "pages_applayout_applayout"
+    },
+    {
+      "label": "Homepage.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/Homepage.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "homepage.jsx",
+      "id": "pages_homepage"
+    },
+    {
+      "label": "Homepage()",
+      "file_type": "code",
+      "source_file": "src/pages/Homepage.jsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "homepage()",
+      "id": "pages_homepage_homepage"
     },
     {
       "label": "Login.jsx",
@@ -1012,9 +1012,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_city"
+      "target": "components_city",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1023,9 +1023,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_city_city"
+      "target": "components_city_city",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -1258,16 +1258,6 @@
       "target": "src_app_app"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/ButtonBack.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_buttonback",
-      "target": "components_buttonback_buttonback"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -1319,6 +1309,26 @@
       "confidence_score": 1.0,
       "source": "components_city_city",
       "target": "components_city_formatdate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/CountriesItem.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_countriesitem",
+      "target": "components_countriesitem_countryitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/CountriesList.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_countrieslist",
+      "target": "components_countrieslist_countrieslist"
     },
     {
       "relation": "contains",
@@ -1404,58 +1414,6 @@
       "confidence_score": 1.0,
       "source": "components_citylist",
       "target": "components_spinner_spinner"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Homepage.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_homepage",
-      "target": "components_pagenav"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Homepage.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_homepage",
-      "target": "components_pagenav_pagenav"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Homepage.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_homepage",
-      "target": "pages_homepage_homepage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/CountriesItem.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_countriesitem",
-      "target": "components_countriesitem_countryitem"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/CountriesList.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_countrieslist",
-      "target": "components_countrieslist_countrieslist"
     },
     {
       "relation": "contains",
@@ -1912,6 +1870,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/components/ButtonBack.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_buttonback",
+      "target": "components_buttonback_buttonback"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/components/Footer.jsx",
       "source_location": "L1",
       "weight": 1.0,
@@ -2071,6 +2039,17 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/pages/Homepage.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_homepage",
+      "target": "components_pagenav"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/pages/Login.jsx",
       "source_location": "L4",
       "weight": 1.0,
@@ -2099,6 +2078,17 @@
       "confidence_score": 1.0,
       "source": "pages_product",
       "target": "components_pagenav"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Homepage.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_homepage",
+      "target": "components_pagenav_pagenav"
     },
     {
       "relation": "imports",
@@ -2260,6 +2250,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/pages/Homepage.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_homepage",
+      "target": "pages_homepage_homepage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/pages/Login.jsx",
       "source_location": "L6",
       "weight": 1.0,
@@ -2299,5 +2299,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e8efe3c7a0deb3d15dbca0525e0918eab5f75581"
+  "built_at_commit": "5e707bbe6a3698e5c50c462a3ff666f679ce4d4f"
 }

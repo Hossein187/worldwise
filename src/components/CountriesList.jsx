@@ -1,10 +1,13 @@
-import Spinner from "./Spinner";
-import Message from "./Message";
-import CountriesItem from "./CountriesItem";
+import CountriesItem from './CountriesItem';
+import Message from './Message';
+import Spinner from './Spinner';
 
-import styles from "./CountriesList.module.css";
+import { useCities } from '../context/CitiesContext';
+import styles from './CountriesList.module.css';
 
-function CountriesList({ isLoading, cities }) {
+function CountriesList() {
+  const { isLoading, cities } = useCities();
+
   if (isLoading) return <Spinner />;
   if (!cities.length)
     return (

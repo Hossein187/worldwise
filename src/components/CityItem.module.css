@@ -35,6 +35,12 @@
   font-size: 1.5rem;
 }
 
+.listItem {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
 .deleteBtn {
   height: 2rem;
   aspect-ratio: 1;

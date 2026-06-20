@@ -1,10 +1,14 @@
-import Spinner from "./Spinner";
-import Message from "./Message";
-import CityItem from "./CityItem";
+import CityItem from './CityItem';
+import Message from './Message';
+import Spinner from './Spinner';
 
-import styles from "./CityList.module.css";
+import { useCities } from '../context/CitiesContext';
 
-function CityList({ isLoading, cities, deleteCity }) {
+import styles from './CityList.module.css';
+
+function CityList() {
+  const { isLoading, cities } = useCities();
+
   if (isLoading) return <Spinner />;
   if (!cities.length)
     return (
@@ -13,7 +17,7 @@ function CityList({ isLoading, cities, deleteCity }) {
   return (
     <ul className={styles.cityList}>
       {cities.map((city) => (
-        <CityItem city={city} key={city.id} deleteCity={deleteCity} />
+        <CityItem city={city} key={city.id} />
       ))}
     </ul>
   );

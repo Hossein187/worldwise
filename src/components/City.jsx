@@ -1,19 +1,28 @@
-import styles from "./City.module.css";
-import ButtonBack from "./ButtonBack";
-import { useParams } from "react-router-dom";
+import { useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import { useCities } from '../context/CitiesContext';
+import ButtonBack from './ButtonBack';
+import styles from './City.module.css';
+import Spinner from './Spinner';
 
 const formatDate = (date) =>
-  new Intl.DateTimeFormat("en", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-    weekday: "long",
+  new Intl.DateTimeFormat('en', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    weekday: 'long',
   }).format(new Date(date));
 
-function City({ cities }) {
+function City() {
   const { id } = useParams();
-  const currentCity = cities.find((city) => city.id === id);
-  if (!currentCity) return null;
+  const { currentCity, getCity, isLoading } = useCities();
+
+  useEffect(() => {
+    getCity(id);
+  }, [id, getCity]);
+
+  if (isLoading) return <Spinner />;
+  if (!currentCity) return <Spinner />;
 
   const { cityName, emoji, date, notes } = currentCity;
 
@@ -28,7 +37,7 @@ function City({ cities }) {
 
       <div className={styles.row}>
         <h6>You went to {cityName} on</h6>
-        <p>{date ? formatDate(date) : "No date"}</p>
+        <p>{date ? formatDate(date) : 'No date'}</p>
       </div>
 
       {notes && (
