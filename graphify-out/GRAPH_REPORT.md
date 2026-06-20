@@ -1,16 +1,16 @@
-# Graph Report - WorlldWise  (2026-06-15)
+# Graph Report - WorlldWise  (2026-06-20)
 
 ## Corpus Check
-- 34 files · ~29,924 words
+- 38 files · ~30,458 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 100 nodes · 124 edges · 12 communities (10 shown, 2 thin omitted)
-- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
+- 127 nodes · 175 edges · 14 communities (11 shown, 3 thin omitted)
+- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e8efe3c7`
+- Built from commit: `a4a8e51f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -24,72 +24,90 @@
 - [[_COMMUNITY_City Detail|City Detail]]
 - [[_COMMUNITY_User Component|User Component]]
 - [[_COMMUNITY_Kilo Config|Kilo Config]]
+- [[_COMMUNITY_Community 9|Community 9]]
+- [[_COMMUNITY_Vite Config|Vite Config]]
+- [[_COMMUNITY_Community 13|Community 13]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `scripts` - 10 edges
-2. `PageNav()` - 5 edges
-3. `City()` - 3 edges
-4. `CityItem()` - 3 edges
-5. `Logo()` - 3 edges
-6. `Spinner()` - 3 edges
-7. `App()` - 2 edges
-8. `ButtonBack()` - 2 edges
-9. `formatDate()` - 2 edges
-10. `formatDate()` - 2 edges
+1. `useCities()` - 11 edges
+2. `scripts` - 10 edges
+3. `compilerOptions` - 8 edges
+4. `Map()` - 5 edges
+5. `PageNav()` - 5 edges
+6. `Button()` - 4 edges
+7. `City()` - 4 edges
+8. `CityItem()` - 4 edges
+9. `ButtonBack()` - 3 edges
+10. `CityList()` - 3 edges
 
 ## Surprising Connections (you probably didn't know these)
-- None detected - all connections are within the same source files.
+- `Map()` --calls--> `useUrlPosition()`  [INFERRED]
+  src/components/Map.jsx → src/hooks/useUrlPosition.js
+- `City()` --calls--> `useCities()`  [EXTRACTED]
+  src/components/City.jsx → src/context/CitiesContext.jsx
+- `Map()` --calls--> `useCities()`  [EXTRACTED]
+  src/components/Map.jsx → src/context/CitiesContext.jsx
+- `CityItem()` --calls--> `useCities()`  [EXTRACTED]
+  src/components/CityItem.jsx → src/context/CitiesContext.jsx
+- `CityList()` --calls--> `useCities()`  [EXTRACTED]
+  src/components/CityList.jsx → src/context/CitiesContext.jsx
 
 ## Import Cycles
 - None detected.
 
-## Communities (12 total, 2 thin omitted)
+## Communities (14 total, 3 thin omitted)
 
 ### Community 0 - "Pages and App"
-Cohesion: 0.14
-Nodes (12): CountriesList(), Form(), Logo(), PageNav(), Homepage(), Login(), PageNotFound(), Pricing() (+4 more)
+Cohesion: 0.19
+Nodes (10): Logo(), PageNav(), Homepage(), Login(), PageNotFound(), Pricing(), Product(), App() (+2 more)
 
 ### Community 1 - "Dev Dependencies"
 Cohesion: 0.12
 Nodes (16): devDependencies, babel-plugin-react-compiler, cross-env, eslint, @eslint/js, eslint-plugin-react, eslint-plugin-react-hooks, eslint-plugin-react-refresh (+8 more)
 
 ### Community 2 - "Package Config"
-Cohesion: 0.13
-Nodes (14): author, dependencies, json-server, react, react-dom, react-router-dom, description, keywords (+6 more)
+Cohesion: 0.12
+Nodes (16): author, dependencies, json-server, leaflet, react, react-dom, react-leaflet, react-router-dom (+8 more)
 
 ### Community 3 - "Navigation Layout"
-Cohesion: 0.29
-Nodes (5): AppNav(), Footer(), Map(), Sidebar(), AppLayout()
+Cohesion: 0.36
+Nodes (4): AppNav(), Footer(), Sidebar(), AppLayout()
 
 ### Community 4 - "Build Scripts"
 Cohesion: 0.20
 Nodes (10): scripts, build, dev, format, lint, preview, server, start (+2 more)
 
 ### Community 5 - "City List Components"
-Cohesion: 0.33
-Nodes (4): CityItem(), formatDate(), CityList(), Spinner()
+Cohesion: 0.24
+Nodes (8): CityItem(), formatDate(), CityList(), CountriesList(), Spinner(), CitiesContext, CitiesProviders(), useCities()
 
 ### Community 6 - "City Detail"
-Cohesion: 0.60
-Nodes (3): ButtonBack(), City(), formatDate()
+Cohesion: 0.36
+Nodes (4): ButtonBack(), City(), formatDate(), Form()
+
+### Community 9 - "Community 9"
+Cohesion: 0.17
+Nodes (11): compilerOptions, allowJs, checkJs, jsx, module, moduleResolution, paths, target (+3 more)
+
+### Community 13 - "Community 13"
+Cohesion: 0.27
+Nodes (4): Button(), Map(), useGeolocation(), useUrlPosition()
 
 ## Knowledge Gaps
-- **41 isolated node(s):** `@kilocode/plugin`, `name`, `version`, `description`, `main` (+36 more)
+- **54 isolated node(s):** `target`, `module`, `moduleResolution`, `jsx`, `allowJs` (+49 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `devDependencies` connect `Dev Dependencies` to `Package Config`?**
-  _High betweenness centrality (0.099) - this node is a cross-community bridge._
-- **Why does `scripts` connect `Build Scripts` to `Package Config`?**
   _High betweenness centrality (0.065) - this node is a cross-community bridge._
-- **What connects `@kilocode/plugin`, `name`, `version` to the rest of the system?**
-  _41 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Pages and App` be split into smaller, more focused modules?**
-  _Cohesion score 0.14130434782608695 - nodes in this community are weakly interconnected._
+- **Why does `scripts` connect `Build Scripts` to `Package Config`?**
+  _High betweenness centrality (0.042) - this node is a cross-community bridge._
+- **What connects `target`, `module`, `moduleResolution` to the rest of the system?**
+  _54 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Dev Dependencies` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Package Config` be split into smaller, more focused modules?**
-  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._

@@ -15,8 +15,8 @@
     "semantic_hash": "c25876703dc6cf18051d453b798b6c33"
   },
   "data/cities.json": {
-    "mtime": 1781908420.3962052,
-    "ast_hash": "3eff57aa258aba4a476a607b8dec04c8",
+    "mtime": 1781521483.6898603,
+    "ast_hash": "e2cb2eb95610b5c37d9c6bae6bce3e04",
     "semantic_hash": ""
   },
   "json-server.json": {
@@ -25,13 +25,13 @@
     "semantic_hash": "d85cfd852251105c3d075cd75421da76"
   },
   "package.json": {
-    "mtime": 1781876841.8756566,
-    "ast_hash": "aab515e1d016bfb1b44f52e7f20ddf0e",
-    "semantic_hash": ""
+    "mtime": 1781521483.7233732,
+    "ast_hash": "ec735b1b327ea0f01b63d0af9f047d38",
+    "semantic_hash": "ec735b1b327ea0f01b63d0af9f047d38"
   },
   "src/App.jsx": {
-    "mtime": 1781822053.792449,
-    "ast_hash": "d83b8709cd3f0f36990bfb64e6274b0d",
+    "mtime": 1781525458.5404713,
+    "ast_hash": "7c1c33ac99d9caee6ba4c8731c19c0aa",
     "semantic_hash": ""
   },
   "src/components/AppNav.jsx": {
@@ -40,28 +40,28 @@
     "semantic_hash": "16daabe515970e3ebb085d3007d803ac"
   },
   "src/components/ButtonBack.jsx": {
-    "mtime": 1781827572.6072717,
-    "ast_hash": "26e351ec4939648935ed8ef8b0bbf8cc",
+    "mtime": 1781524131.1400445,
+    "ast_hash": "fcfe5b1ffd20141fcfc4a123c1fee08c",
     "semantic_hash": ""
   },
   "src/components/City.jsx": {
-    "mtime": 1781946983.0905004,
-    "ast_hash": "18a8ad46e7c040ed24da268b5080bc3a",
+    "mtime": 1781523910.473172,
+    "ast_hash": "eab7a7d2a771fb94bfe792df8773f9ee",
     "semantic_hash": ""
   },
   "src/components/CityItem.jsx": {
-    "mtime": 1781827308.1748798,
-    "ast_hash": "8bb50453da3ed317efe25de4a1812c91",
+    "mtime": 1781526046.1824446,
+    "ast_hash": "f0f1fd596a80cb3021c16da5a908c502",
     "semantic_hash": ""
   },
   "src/components/CityList.jsx": {
-    "mtime": 1781821195.9893627,
-    "ast_hash": "77edf2d0d90007d8c3bedba24f321f06",
+    "mtime": 1781525497.1485908,
+    "ast_hash": "b03a41fb95becbf681d3cc5ae155fe95",
     "semantic_hash": ""
   },
   "src/components/CountriesList.jsx": {
-    "mtime": 1781821599.7091868,
-    "ast_hash": "cd455c1f3363362dab86405dc16fdb82",
+    "mtime": 1781521483.7433715,
+    "ast_hash": "2b92b4dd7351860562b7b94564be1696",
     "semantic_hash": ""
   },
   "src/components/Footer.jsx": {
@@ -70,9 +70,9 @@
     "semantic_hash": "162b57e1917e58770e7ccea1b948a300"
   },
   "src/components/Form.jsx": {
-    "mtime": 1781974698.8643034,
-    "ast_hash": "4edfa3df90d188516c827666a9987209",
-    "semantic_hash": ""
+    "mtime": 1781521483.7463734,
+    "ast_hash": "0fda90b712fc68efb697ef187ac6891a",
+    "semantic_hash": "0fda90b712fc68efb697ef187ac6891a"
   },
   "src/components/Logo.jsx": {
     "mtime": 1781521483.7473733,
@@ -80,9 +80,9 @@
     "semantic_hash": "052b5030cfdd9d6c5cb1eff61d6ddd2a"
   },
   "src/components/Map.jsx": {
-    "mtime": 1781977204.634803,
-    "ast_hash": "b9c02b04cd667b1352bc6a4f942b8534",
-    "semantic_hash": ""
+    "mtime": 1781521483.7493732,
+    "ast_hash": "1b38097e768945c881181c1e6dcbc7ee",
+    "semantic_hash": "1b38097e768945c881181c1e6dcbc7ee"
   },
   "src/components/Message.jsx": {
     "mtime": 1781521483.7503717,
@@ -125,8 +125,8 @@
     "semantic_hash": "0e72cba833ef79271e2b5b7ec9dcb2d6"
   },
   "src/pages/Homepage.jsx": {
-    "mtime": 1781533862.8438108,
-    "ast_hash": "ce522547e5e198db81efd05f06993518",
+    "mtime": 1781523824.6034055,
+    "ast_hash": "ddfb9b3abbd0cd9694467ad48adfb5cc",
     "semantic_hash": ""
   },
   "src/pages/Login.jsx": {
@@ -150,9 +150,9 @@
     "semantic_hash": "d799cedd2a756bb0e41eebf4f87adae6"
   },
   "vite.config.js": {
-    "mtime": 1781904906.0887115,
-    "ast_hash": "f8b8c48ab940fb8cf004cfd8b18c4f23",
-    "semantic_hash": ""
+    "mtime": 1781521483.7693737,
+    "ast_hash": "245019a5c3614694bb3b1cef2384c803",
+    "semantic_hash": "245019a5c3614694bb3b1cef2384c803"
   },
   "CLAUDE.md": {
     "mtime": 1781521483.68886,
@@ -195,28 +195,8 @@
     "semantic_hash": ""
   },
   "src/components/Button.jsx": {
-    "mtime": 1781907957.7471106,
-    "ast_hash": "26fb48fa8fbf3a1eb559e4fbf7341793",
-    "semantic_hash": ""
-  },
-  "jsconfig.json": {
-    "mtime": 1781907583.0281572,
-    "ast_hash": "cda215895d6c84681c73bf98c70fe0b9",
-    "semantic_hash": ""
-  },
-  "src/context/CitiesContext.jsx": {
-    "mtime": 1781966019.6600678,
-    "ast_hash": "02fe4db14d19a8b386c27f58c1919c56",
-    "semantic_hash": ""
-  },
-  "src/hooks/useGeolocation.js": {
-    "mtime": 1781974592.6904204,
-    "ast_hash": "39a25792e04e42ef25f9d26aa4ae5dc6",
-    "semantic_hash": ""
-  },
-  "src/hooks/useUrlPosition.js": {
-    "mtime": 1781910005.3723316,
-    "ast_hash": "43f374ecaaaa411c779668d773fb45e2",
+    "mtime": 1781525820.1939878,
+    "ast_hash": "3d54d2fe9b3b60c3b28dfa0d1f21edc3",
     "semantic_hash": ""
   }
 }
