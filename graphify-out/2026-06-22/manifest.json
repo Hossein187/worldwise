@@ -15,8 +15,8 @@
     "semantic_hash": "c25876703dc6cf18051d453b798b6c33"
   },
   "data/cities.json": {
-    "mtime": 1781908420.3962052,
-    "ast_hash": "3eff57aa258aba4a476a607b8dec04c8",
+    "mtime": 1782135593.9853091,
+    "ast_hash": "e739994e207cd0ccca7c3ba46b15fe9d",
     "semantic_hash": ""
   },
   "json-server.json": {
@@ -25,8 +25,8 @@
     "semantic_hash": "d85cfd852251105c3d075cd75421da76"
   },
   "package.json": {
-    "mtime": 1781876841.8756566,
-    "ast_hash": "aab515e1d016bfb1b44f52e7f20ddf0e",
+    "mtime": 1781996789.453164,
+    "ast_hash": "304d193188797063dd57f2d03e4b9f27",
     "semantic_hash": ""
   },
   "src/App.jsx": {
@@ -40,8 +40,8 @@
     "semantic_hash": "16daabe515970e3ebb085d3007d803ac"
   },
   "src/components/ButtonBack.jsx": {
-    "mtime": 1781827572.6072717,
-    "ast_hash": "26e351ec4939648935ed8ef8b0bbf8cc",
+    "mtime": 1781996171.399593,
+    "ast_hash": "0c37bb6f361532c8de1b2d8ae4733738",
     "semantic_hash": ""
   },
   "src/components/City.jsx": {
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "src/components/CityItem.jsx": {
-    "mtime": 1781827308.1748798,
-    "ast_hash": "8bb50453da3ed317efe25de4a1812c91",
+    "mtime": 1782135163.9588022,
+    "ast_hash": "ee0c5bd0694f1ac5dbf2edbdad4ee45a",
     "semantic_hash": ""
   },
   "src/components/CityList.jsx": {
@@ -70,8 +70,8 @@
     "semantic_hash": "162b57e1917e58770e7ccea1b948a300"
   },
   "src/components/Form.jsx": {
-    "mtime": 1781990609.9694796,
-    "ast_hash": "6ff1ab0643ae5f7e7491e1f4f9d3bad5",
+    "mtime": 1781999910.5207665,
+    "ast_hash": "79596680afad52efc27feb182ac306fc",
     "semantic_hash": ""
   },
   "src/components/Logo.jsx": {
@@ -205,8 +205,8 @@
     "semantic_hash": ""
   },
   "src/context/CitiesContext.jsx": {
-    "mtime": 1781966019.6600678,
-    "ast_hash": "02fe4db14d19a8b386c27f58c1919c56",
+    "mtime": 1782134722.0338888,
+    "ast_hash": "d3a424e66a0b1964e707ef3472d094b1",
     "semantic_hash": ""
   },
   "src/hooks/useGeolocation.js": {

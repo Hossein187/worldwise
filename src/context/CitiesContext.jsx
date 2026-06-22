@@ -54,7 +54,7 @@ function reducer(state, action) {
 }
 
 function CitiesProviders({ children }) {
-  const [{ cities, isLoading, currentCity }, dispatch] = useReducer(
+  const [{ cities, isLoading, currentCity, error }, dispatch] = useReducer(
     reducer,
     initialState
   );
@@ -82,7 +82,6 @@ function CitiesProviders({ children }) {
         dispatch({ type: 'cities/cities', payload: data });
       } catch (err) {
         if (err.name === 'AbortError') return;
-
         dispatch({ type: 'cities/rejected', payload: err.message });
       }
     }
@@ -106,7 +105,6 @@ function CitiesProviders({ children }) {
       dispatch({ type: 'cities/current', payload: data });
     } catch (err) {
       if (err.name === 'AbortError') return;
-
       dispatch({ type: 'cities/rejected', payload: err.message });
     }
   }, []);
@@ -123,10 +121,9 @@ function CitiesProviders({ children }) {
         method: 'DELETE',
         signal: controller.signal,
       });
-      dispatch({ type: 'cities/deleted', payload: id }); // just the id
+      dispatch({ type: 'cities/deleted', payload: id });
     } catch (err) {
       if (err.name === 'AbortError') return;
-
       dispatch({ type: 'cities/rejected', payload: err.message });
     }
   }, []);
@@ -152,7 +149,6 @@ function CitiesProviders({ children }) {
       dispatch({ type: 'cities/created', payload: data });
     } catch (err) {
       if (err.name === 'AbortError') return;
-
       dispatch({ type: 'cities/rejected', payload: err.message });
     }
   }, []);
@@ -162,6 +158,7 @@ function CitiesProviders({ children }) {
       value={{
         isLoading,
         cities,
+        error,
         deleteCity,
         currentCity,
         getCity,

@@ -1,16 +1,16 @@
 # Graph Report - WorlldWise  (2026-06-22)
 
 ## Corpus Check
-- 39 files · ~31,588 words
+- 39 files · ~31,814 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 129 nodes · 178 edges · 15 communities (12 shown, 3 thin omitted)
+- 131 nodes · 180 edges · 15 communities (12 shown, 3 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5fe2bb1a`
+- Built from commit: `b12107d6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -58,8 +58,8 @@
 ## Communities (15 total, 3 thin omitted)
 
 ### Community 0 - "Pages and App"
-Cohesion: 0.19
-Nodes (10): Logo(), PageNav(), Homepage(), Login(), PageNotFound(), Pricing(), Product(), App() (+2 more)
+Cohesion: 0.17
+Nodes (11): Logo(), PageNav(), CitiesProviders(), Homepage(), Login(), PageNotFound(), Pricing(), Product() (+3 more)
 
 ### Community 1 - "Dev Dependencies"
 Cohesion: 0.12
@@ -78,8 +78,8 @@ Cohesion: 0.20
 Nodes (10): scripts, build, dev, format, lint, preview, server, start (+2 more)
 
 ### Community 5 - "City List Components"
-Cohesion: 0.24
-Nodes (8): CityItem(), formatDate(), CityList(), CountriesList(), Spinner(), CitiesContext, CitiesProviders(), useCities()
+Cohesion: 0.22
+Nodes (8): CityItem(), formatDate(), CityList(), CountriesList(), Spinner(), CitiesContext, initialState, useCities()
 
 ### Community 6 - "City Detail"
 Cohesion: 0.39
@@ -94,7 +94,7 @@ Cohesion: 0.27
 Nodes (4): Button(), Map(), useGeolocation(), useUrlPosition()
 
 ## Knowledge Gaps
-- **55 isolated node(s):** `name`, `version`, `description`, `main`, `test` (+50 more)
+- **56 isolated node(s):** `CitiesContext`, `initialState`, `name`, `version`, `description` (+51 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -102,11 +102,11 @@ Nodes (4): Button(), Map(), useGeolocation(), useUrlPosition()
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `devDependencies` connect `Dev Dependencies` to `Package Config`?**
-  _High betweenness centrality (0.065) - this node is a cross-community bridge._
+  _High betweenness centrality (0.063) - this node is a cross-community bridge._
 - **Why does `scripts` connect `Build Scripts` to `Package Config`?**
-  _High betweenness centrality (0.042) - this node is a cross-community bridge._
-- **What connects `name`, `version`, `description` to the rest of the system?**
-  _55 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.041) - this node is a cross-community bridge._
+- **What connects `CitiesContext`, `initialState`, `name` to the rest of the system?**
+  _56 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Dev Dependencies` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Package Config` be split into smaller, more focused modules?**
