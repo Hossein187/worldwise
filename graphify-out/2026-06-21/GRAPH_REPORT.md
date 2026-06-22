@@ -1,16 +1,16 @@
-# Graph Report - WorlldWise  (2026-06-21)
+# Graph Report - WorlldWise  (2026-06-20)
 
 ## Corpus Check
-- 39 files · ~31,428 words
+- 38 files · ~30,458 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 128 nodes · 175 edges · 15 communities (12 shown, 3 thin omitted)
+- 127 nodes · 175 edges · 14 communities (11 shown, 3 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `1ee701f8`
+- Built from commit: `a4a8e51f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -43,19 +43,19 @@
 ## Surprising Connections (you probably didn't know these)
 - `Map()` --calls--> `useUrlPosition()`  [INFERRED]
   src/components/Map.jsx → src/hooks/useUrlPosition.js
-- `Map()` --calls--> `useCities()`  [EXTRACTED]
-  src/components/Map.jsx → src/context/CitiesContext.jsx
 - `City()` --calls--> `useCities()`  [EXTRACTED]
   src/components/City.jsx → src/context/CitiesContext.jsx
-- `Map()` --calls--> `useGeolocation()`  [EXTRACTED]
-  src/components/Map.jsx → src/hooks/useGeolocation.js
+- `Map()` --calls--> `useCities()`  [EXTRACTED]
+  src/components/Map.jsx → src/context/CitiesContext.jsx
 - `CityItem()` --calls--> `useCities()`  [EXTRACTED]
   src/components/CityItem.jsx → src/context/CitiesContext.jsx
+- `CityList()` --calls--> `useCities()`  [EXTRACTED]
+  src/components/CityList.jsx → src/context/CitiesContext.jsx
 
 ## Import Cycles
 - None detected.
 
-## Communities (15 total, 3 thin omitted)
+## Communities (14 total, 3 thin omitted)
 
 ### Community 0 - "Pages and App"
 Cohesion: 0.19
@@ -102,7 +102,7 @@ Nodes (4): Button(), Map(), useGeolocation(), useUrlPosition()
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `devDependencies` connect `Dev Dependencies` to `Package Config`?**
-  _High betweenness centrality (0.064) - this node is a cross-community bridge._
+  _High betweenness centrality (0.065) - this node is a cross-community bridge._
 - **Why does `scripts` connect `Build Scripts` to `Package Config`?**
   _High betweenness centrality (0.042) - this node is a cross-community bridge._
 - **What connects `target`, `module`, `moduleResolution` to the rest of the system?**

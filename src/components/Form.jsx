@@ -1,14 +1,17 @@
 // "https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=0&longitude=0"
 
+import { useUrlPosition } from '@/hooks/useUrlPosition';
 import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
 
 import Button from './Button';
 import ButtonBack from './ButtonBack';
-
-import { useUrlPosition } from '@/hooks/useUrlPosition';
-import styles from './Form.module.css';
 import Spinner from './Spinner';
+
+import { useCities } from '@/context/CitiesContext';
+import { useNavigate } from 'react-router-dom';
+import styles from './Form.module.css';
 
 export function convertToEmoji(countryCode) {
   if (!countryCode || countryCode.length !== 2) return '🏳️';
@@ -22,7 +25,7 @@ export function convertToEmoji(countryCode) {
     const emoji = String.fromCodePoint(...codePoints);
 
     if (navigator.userAgent.includes('Windows')) {
-      return `[${code}]`;
+      return `${code}`;
     }
     return emoji;
   } catch (error) {
@@ -36,6 +39,7 @@ const BASE_URL = 'https://nominatim.openstreetmap.org/reverse';
 function Form() {
   const navigate = useNavigate();
   const [lat, lng] = useUrlPosition();
+  const { createCity, isLoading: isCreatingCity } = useCities();
   const [cityName, setCityName] = useState('');
   const [country, setCountry] = useState('');
   const [date, setDate] = useState(new Date());
@@ -43,18 +47,20 @@ function Form() {
   const [isLoading, setIsLoading] = useState(false);
   const [hasError, setHasError] = useState(null);
   const [emoji, setEmoji] = useState('');
+  const [isButtonDisabled, setIsButtonDisabled] = useState(false);
 
   useEffect(() => {
     async function fetchData() {
       if (!lat || !lng) {
-        setHasError('No location data available');
+        setHasError('No location data available, Choose somewhere to see');
+        setIsButtonDisabled(true);
         return;
       }
       try {
         setIsLoading(true);
         setHasError(null);
+        setIsButtonDisabled(true);
 
-        // Add timeout for fetch
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), 10000);
 
@@ -63,7 +69,7 @@ function Form() {
           {
             signal: controller.signal,
             headers: {
-              'User-Agent': 'MyTravelApp/1.0 (your@email.com)', // Required by Nominatim
+              'User-Agent': 'MyTravelApp/1.0 (your@email.com)',
             },
           }
         );
@@ -82,10 +88,9 @@ function Form() {
 
         if (!data.address.country_code)
           throw new Error(
-            "that dosen't seem to be a city. Click someWhere else"
+            "that doesn't seem to be a city. Click someWhere else"
           );
 
-        // Extract address with fallbacks
         const address = data.address || {};
         const city =
           address.city ||
@@ -102,12 +107,14 @@ function Form() {
         setCityName(city);
         setCountry(countryName);
         setEmoji(code);
+        setIsButtonDisabled(false);
       } catch (err) {
         console.error('Error fetching location:', err);
         setHasError(err.message || 'Failed to fetch location data');
         setCityName('');
         setCountry('');
         setEmoji('');
+        setIsButtonDisabled(true);
       } finally {
         setIsLoading(false);
       }
@@ -126,7 +133,6 @@ function Form() {
     );
   }
 
-  // Error state
   if (hasError) {
     return (
       <div className={styles.form}>
@@ -135,13 +141,36 @@ function Form() {
           <Button type="primary" onClick={() => window.location.reload()}>
             Retry
           </Button>
+          <ButtonBack disabled={false} to="/app/cities">
+            &larr; Back
+          </ButtonBack>
         </div>
       </div>
     );
   }
 
+  async function handleSubmit(e) {
+    e.preventDefault();
+
+    if (!cityName || !date) return;
+
+    const newCity = {
+      cityName,
+      country,
+      emoji: convertToEmoji(emoji),
+      date,
+      notes,
+      position: { lat, lng },
+    };
+    // console.log(newCity);
+    await createCity(newCity);
+    navigate('/app/cities');
+  }
+
   return (
-    <form className={styles.form}>
+    <form
+      className={`${styles.form} ${isCreatingCity ? styles.loading : ''}`}
+      onSubmit={handleSubmit}>
       <div className={styles.row}>
         <label htmlFor="cityName">City name</label>
         <input
@@ -149,15 +178,16 @@ function Form() {
           onChange={(e) => setCityName(e.target.value)}
           value={cityName}
         />
-        <span className={styles.flag}>{emoji}</span>
+        <span className={styles.flag}>{convertToEmoji(emoji)}</span>
       </div>
 
       <div className={styles.row}>
         <label htmlFor="date">When did you go to {cityName}?</label>
-        <input
+        <DatePicker
           id="date"
-          onChange={(e) => setDate(e.target.value)}
-          value={date}
+          onChange={(date) => setDate(date)}
+          selected={date}
+          dateFormat="dd/MM/yyyy"
         />
       </div>
 
@@ -172,7 +202,9 @@ function Form() {
 
       <div className={styles.buttons}>
         <Button type="primary">Add</Button>
-        <ButtonBack>&larr; Back</ButtonBack>
+        <ButtonBack disabled={isButtonDisabled} to="/app/cities">
+          &larr; Back
+        </ButtonBack>
       </div>
     </form>
   );

@@ -46,8 +46,33 @@ function CitiesProviders({ children }) {
     }
   }, []);
 
-  const deleteCity = useCallback((id) => {
-    setCities((cities) => cities.filter((city) => city.id !== id));
+  const deleteCity = useCallback(async function (id) {
+    try {
+      await fetch(`${BASE_URL}/cities/${id}`, { method: 'DELETE' });
+      setCities((cities) => cities.filter((city) => city.id !== id));
+    } catch (err) {
+      console.error(err);
+    }
+  }, []);
+
+  const createCity = useCallback(async function (newCity) {
+    try {
+      setIsLoading(true);
+      const res = await fetch(`${BASE_URL}/cities`, {
+        method: 'POST',
+        body: JSON.stringify(newCity),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+      if (!res.ok) throw new Error('Failed to fetch!!!');
+      const data = await res.json();
+      setCities((cities) => [...cities, data]);
+    } catch (err) {
+      console.error(err);
+    } finally {
+      setIsLoading(false);
+    }
   }, []);
 
   return (
@@ -58,6 +83,7 @@ function CitiesProviders({ children }) {
         deleteCity,
         currentCity,
         getCity,
+        createCity,
       }}>
       {children}
     </CitiesContext.Provider>

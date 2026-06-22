@@ -1,17 +1,20 @@
 import { useNavigate } from 'react-router-dom';
 import styles from './Button.module.css';
 
-function ButtonBack() {
+function ButtonBack({ disabled = false, to = -1, children }) {
   const navigate = useNavigate();
+
   return (
     <button
-      className={styles.back}
+      className={`${styles.btn} ${styles.back}`}
       onClick={(e) => {
         e.preventDefault();
-        navigate(-1);
-      }}>
-      &larr; Back
+        if (!disabled) navigate(to);
+      }}
+      disabled={disabled}>
+      {children || '← Back'}
     </button>
   );
 }
+
 export default ButtonBack;
