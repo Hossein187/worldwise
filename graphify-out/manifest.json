@@ -205,8 +205,8 @@
     "semantic_hash": ""
   },
   "src/context/CitiesContext.jsx": {
-    "mtime": 1782144649.5769093,
-    "ast_hash": "fcdd10eff4cca8a53beb3311e041dca4",
+    "mtime": 1782144847.150492,
+    "ast_hash": "540f49ea52954b04468067dee620aaa6",
     "semantic_hash": ""
   },
   "src/hooks/useGeolocation.js": {

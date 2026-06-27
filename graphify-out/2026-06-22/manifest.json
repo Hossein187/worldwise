@@ -15,7 +15,7 @@
     "semantic_hash": "c25876703dc6cf18051d453b798b6c33"
   },
   "data/cities.json": {
-    "mtime": 1782135593.9853091,
+    "mtime": 1782140284.9180374,
     "ast_hash": "e739994e207cd0ccca7c3ba46b15fe9d",
     "semantic_hash": ""
   },
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "src/components/CityItem.jsx": {
-    "mtime": 1782135163.9588022,
-    "ast_hash": "ee0c5bd0694f1ac5dbf2edbdad4ee45a",
+    "mtime": 1782135851.2216837,
+    "ast_hash": "ce024b82990a55730c982f1fb647284a",
     "semantic_hash": ""
   },
   "src/components/CityList.jsx": {
@@ -205,8 +205,8 @@
     "semantic_hash": ""
   },
   "src/context/CitiesContext.jsx": {
-    "mtime": 1782134722.0338888,
-    "ast_hash": "d3a424e66a0b1964e707ef3472d094b1",
+    "mtime": 1782144649.5769093,
+    "ast_hash": "fcdd10eff4cca8a53beb3311e041dca4",
     "semantic_hash": ""
   },
   "src/hooks/useGeolocation.js": {

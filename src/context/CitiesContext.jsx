@@ -89,25 +89,29 @@ function CitiesProviders({ children }) {
     return () => listControllerRef.current?.abort();
   }, []);
 
-  const getCity = useCallback(async function (id) {
-    if (cityControllerRef.current) cityControllerRef.current.abort();
+  const getCity = useCallback(
+    async function (id) {
+      if (id === currentCity.id) return;
+      if (cityControllerRef.current) cityControllerRef.current.abort();
 
-    const controller = new AbortController();
-    cityControllerRef.current = controller;
+      const controller = new AbortController();
+      cityControllerRef.current = controller;
 
-    dispatch({ type: 'cities/loading', payload: true });
-    try {
-      const res = await fetch(`${BASE_URL}/cities/${id}`, {
-        signal: controller.signal,
-      });
-      if (!res.ok) throw new Error('Failed to fetch!!!');
-      const data = await res.json();
-      dispatch({ type: 'cities/current', payload: data });
-    } catch (err) {
-      if (err.name === 'AbortError') return;
-      dispatch({ type: 'cities/rejected', payload: err.message });
-    }
-  }, []);
+      dispatch({ type: 'cities/loading', payload: true });
+      try {
+        const res = await fetch(`${BASE_URL}/cities/${id}`, {
+          signal: controller.signal,
+        });
+        if (!res.ok) throw new Error('Failed to fetch!!!');
+        const data = await res.json();
+        dispatch({ type: 'cities/current', payload: data });
+      } catch (err) {
+        if (err.name === 'AbortError') return;
+        dispatch({ type: 'cities/rejected', payload: err.message });
+      }
+    },
+    [currentCity.id]
+  );
 
   const deleteCity = useCallback(async function (id) {
     if (deleteControllerRef.current) deleteControllerRef.current.abort();
