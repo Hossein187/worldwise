@@ -47,6 +47,30 @@
         "lng": 51.3896
       },
       "id": "81818181"
+    },
+    {
+      "cityName": "Albocàsser",
+      "country": "Spain",
+      "emoji": "ES",
+      "date": "2026-06-28T22:56:37.738Z",
+      "notes": "",
+      "position": {
+        "lat": 40.352612020633025,
+        "lng": 0.03826755057402487
+      },
+      "id": "DxpzD3Alvwg"
+    },
+    {
+      "cityName": "Alvand",
+      "country": "Iran",
+      "emoji": "IR",
+      "date": "2026-06-28T22:57:01.041Z",
+      "notes": "",
+      "position": {
+        "lat": 36.186633022726625,
+        "lng": 50.06608522095687
+      },
+      "id": "tWrV0F0oQL4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -2,9 +2,12 @@
 
 A travel-tracking app where you can log the cities and countries you've visited on an interactive world map, complete with visit notes, dates, and live geolocation.
 
-![WorldWise Screenshot](./public/img-1.jpg)
-
-<!-- 👆 Swap this for a real app screenshot once you take one -->
+![WorldWise Screenshot](./public/screenShots/shot-1.png)
+![WorldWise Screenshot](./public/screenShots/shot-2.png)
+![WorldWise Screenshot](./public/screenShots/shot-3.png)
+![WorldWise Screenshot](./public/screenShots/shot-4.png)
+![WorldWise Screenshot](./public/screenShots/shot-5.png)
+![WorldWise Screenshot](./public/screenShots/shot-6.png)
 
 ## ✨ Features
 
