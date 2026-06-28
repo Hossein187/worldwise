@@ -1,9 +1,0 @@
-node_modules/
-dist/
-build/
-.next/
-.cache/
-*.log
-.env
-.env.local
-.eslintcache
