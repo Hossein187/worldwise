@@ -4,76 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "label": "cities.json",
-      "file_type": "code",
-      "source_file": "data/cities.json",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "data_cities",
-      "community": 15,
-      "norm_label": "cities.json"
-    },
-    {
-      "label": "cities",
-      "file_type": "code",
-      "source_file": "data/cities.json",
-      "source_location": "L2",
-      "_origin": "ast",
-      "id": "data_cities_cities",
-      "community": 15,
-      "norm_label": "cities"
-    },
-    {
-      "label": "$schema",
-      "file_type": "code",
-      "source_file": "data/cities.json",
-      "source_location": "L52",
-      "_origin": "ast",
-      "id": "data_cities_schema",
-      "community": 15,
-      "norm_label": "$schema"
-    },
-    {
-      "label": "App.jsx",
-      "file_type": "code",
-      "source_file": "src/App.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "src_app",
-      "community": 0,
-      "norm_label": "app.jsx"
-    },
-    {
-      "label": "App()",
-      "file_type": "code",
-      "source_file": "src/App.jsx",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "src_app_app",
-      "community": 0,
-      "norm_label": "app()"
-    },
-    {
-      "label": "User.jsx",
-      "file_type": "code",
-      "source_file": "src/components/User.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "components_user",
-      "community": 7,
-      "norm_label": "user.jsx"
-    },
-    {
-      "label": "User()",
-      "file_type": "code",
-      "source_file": "src/components/User.jsx",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "components_user_user",
-      "community": 7,
-      "norm_label": "user()"
-    },
-    {
       "label": "CitiesContext.jsx",
       "file_type": "code",
       "source_file": "src/context/CitiesContext.jsx",
@@ -120,198 +50,18 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "context_citiescontext_citiesproviders",
-      "community": 5,
+      "community": 0,
       "norm_label": "citiesproviders()"
     },
     {
       "label": "useCities()",
       "file_type": "code",
       "source_file": "src/context/CitiesContext.jsx",
-      "source_location": "L176",
+      "source_location": "L172",
       "_origin": "ast",
       "id": "context_citiescontext_usecities",
       "community": 5,
       "norm_label": "usecities()"
-    },
-    {
-      "label": "FakeAuthContext.jsx",
-      "file_type": "code",
-      "source_file": "src/context/FakeAuthContext.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "context_fakeauthcontext",
-      "community": 7,
-      "norm_label": "fakeauthcontext.jsx"
-    },
-    {
-      "label": "AuthContext",
-      "file_type": "code",
-      "source_file": "src/context/FakeAuthContext.jsx",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "context_fakeauthcontext_authcontext",
-      "community": 7,
-      "norm_label": "authcontext"
-    },
-    {
-      "label": "initialState",
-      "file_type": "code",
-      "source_file": "src/context/FakeAuthContext.jsx",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "context_fakeauthcontext_initialstate",
-      "community": 7,
-      "norm_label": "initialstate"
-    },
-    {
-      "label": "reducer()",
-      "file_type": "code",
-      "source_file": "src/context/FakeAuthContext.jsx",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "context_fakeauthcontext_reducer",
-      "community": 7,
-      "norm_label": "reducer()"
-    },
-    {
-      "label": "FAKE_USER",
-      "file_type": "code",
-      "source_file": "src/context/FakeAuthContext.jsx",
-      "source_location": "L21",
-      "_origin": "ast",
-      "id": "context_fakeauthcontext_fake_user",
-      "community": 7,
-      "norm_label": "fake_user"
-    },
-    {
-      "label": "AuthProviders()",
-      "file_type": "code",
-      "source_file": "src/context/FakeAuthContext.jsx",
-      "source_location": "L28",
-      "_origin": "ast",
-      "id": "context_fakeauthcontext_authproviders",
-      "community": 7,
-      "norm_label": "authproviders()"
-    },
-    {
-      "label": "useAuth()",
-      "file_type": "code",
-      "source_file": "src/context/FakeAuthContext.jsx",
-      "source_location": "L47",
-      "_origin": "ast",
-      "id": "context_fakeauthcontext_useauth",
-      "community": 7,
-      "norm_label": "useauth()"
-    },
-    {
-      "label": "index.jsx",
-      "file_type": "code",
-      "source_file": "src/index.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "src_index",
-      "community": 0,
-      "norm_label": "index.jsx"
-    },
-    {
-      "label": "rootElement",
-      "file_type": "code",
-      "source_file": "src/index.jsx",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "src_index_rootelement",
-      "community": 0,
-      "norm_label": "rootelement"
-    },
-    {
-      "label": "root",
-      "file_type": "code",
-      "source_file": "src/index.jsx",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "src_index_root",
-      "community": 0,
-      "norm_label": "root"
-    },
-    {
-      "label": "AppLayout.jsx",
-      "file_type": "code",
-      "source_file": "src/pages/AppLayout.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "pages_applayout",
-      "community": 3,
-      "norm_label": "applayout.jsx"
-    },
-    {
-      "label": "AppLayout()",
-      "file_type": "code",
-      "source_file": "src/pages/AppLayout.jsx",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "pages_applayout_applayout",
-      "community": 3,
-      "norm_label": "applayout()"
-    },
-    {
-      "label": "Homepage.jsx",
-      "file_type": "code",
-      "source_file": "src/pages/Homepage.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "pages_homepage",
-      "community": 0,
-      "norm_label": "homepage.jsx"
-    },
-    {
-      "label": "Homepage()",
-      "file_type": "code",
-      "source_file": "src/pages/Homepage.jsx",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "pages_homepage_homepage",
-      "community": 0,
-      "norm_label": "homepage()"
-    },
-    {
-      "label": "Login.jsx",
-      "file_type": "code",
-      "source_file": "src/pages/Login.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "pages_login",
-      "community": 0,
-      "norm_label": "login.jsx"
-    },
-    {
-      "label": "Login()",
-      "file_type": "code",
-      "source_file": "src/pages/Login.jsx",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "pages_login_login",
-      "community": 0,
-      "norm_label": "login()"
-    },
-    {
-      "label": "ProtectedRoute.jsx",
-      "file_type": "code",
-      "source_file": "src/pages/ProtectedRoute.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "pages_protectedroute",
-      "community": 0,
-      "norm_label": "protectedroute.jsx"
-    },
-    {
-      "label": "ProtectedRoute()",
-      "file_type": "code",
-      "source_file": "src/pages/ProtectedRoute.jsx",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "pages_protectedroute_protectedroute",
-      "community": 0,
-      "norm_label": "protectedroute()"
     },
     {
       "label": "CityItem.jsx",
@@ -1004,6 +754,26 @@
       "id": "jsconfig_exclude"
     },
     {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "app.jsx",
+      "id": "src_app"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "app()",
+      "id": "src_app_app"
+    },
+    {
       "label": "Button.jsx",
       "file_type": "code",
       "source_file": "src/components/Button.jsx",
@@ -1132,6 +902,26 @@
       "community": 13,
       "norm_label": "useurlposition()",
       "id": "hooks_useurlposition_useurlposition"
+    },
+    {
+      "label": "Homepage.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/Homepage.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "homepage.jsx",
+      "id": "pages_homepage"
+    },
+    {
+      "label": "Homepage()",
+      "file_type": "code",
+      "source_file": "src/pages/Homepage.jsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "homepage()",
+      "id": "pages_homepage_homepage"
     },
     {
       "label": "vite.config.js",
@@ -1364,6 +1154,106 @@
       "id": "components_spinnerfullpage_spinnerfullpage"
     },
     {
+      "label": "User.jsx",
+      "file_type": "code",
+      "source_file": "src/components/User.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "user.jsx",
+      "id": "components_user"
+    },
+    {
+      "label": "FAKE_USER",
+      "file_type": "code",
+      "source_file": "src/components/User.jsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "fake_user",
+      "id": "components_user_fake_user"
+    },
+    {
+      "label": "User()",
+      "file_type": "code",
+      "source_file": "src/components/User.jsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "user()",
+      "id": "components_user_user"
+    },
+    {
+      "label": "index.jsx",
+      "file_type": "code",
+      "source_file": "src/index.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "index.jsx",
+      "id": "src_index"
+    },
+    {
+      "label": "rootElement",
+      "file_type": "code",
+      "source_file": "src/index.jsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "rootelement",
+      "id": "src_index_rootelement"
+    },
+    {
+      "label": "root",
+      "file_type": "code",
+      "source_file": "src/index.jsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "root",
+      "id": "src_index_root"
+    },
+    {
+      "label": "AppLayout.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/AppLayout.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "applayout.jsx",
+      "id": "pages_applayout"
+    },
+    {
+      "label": "AppLayout()",
+      "file_type": "code",
+      "source_file": "src/pages/AppLayout.jsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "applayout()",
+      "id": "pages_applayout_applayout"
+    },
+    {
+      "label": "Login.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/Login.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "login.jsx",
+      "id": "pages_login"
+    },
+    {
+      "label": "Login()",
+      "file_type": "code",
+      "source_file": "src/pages/Login.jsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "login()",
+      "id": "pages_login_login"
+    },
+    {
       "label": "PageNotFound.jsx",
       "file_type": "code",
       "source_file": "src/pages/PageNotFound.jsx",
@@ -1425,365 +1315,6 @@
     }
   ],
   "links": [
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "data/cities.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "data_cities",
-      "target": "data_cities_cities",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "data/cities.json",
-      "source_location": "L52",
-      "weight": 1.0,
-      "source": "data_cities",
-      "target": "data_cities_schema",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_city"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_city_city"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_citylist"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_citylist_citylist"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_countrieslist"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_countrieslist_countrieslist"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_form"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_form_form"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "context_citiescontext"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "context_citiescontext_citiesproviders"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "context_fakeauthcontext",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "context_fakeauthcontext_authproviders",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_applayout"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_applayout_applayout"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_homepage"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_homepage_homepage"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_login"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_login_login"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_pagenotfound"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_pagenotfound_pagenotfound"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_pricing"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_pricing_pricing"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_product"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "pages_product_product"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "pages_protectedroute",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "pages_protectedroute_protectedroute",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.jsx",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "src_app_app"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/index.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_index",
-      "target": "src_app"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/index.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_index",
-      "target": "src_app_app"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/User.jsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_user",
-      "target": "components_user_user"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/components/User.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "components_user_user",
-      "target": "context_fakeauthcontext_useauth"
-    },
     {
       "relation": "imports_from",
       "context": "import",
@@ -1888,6 +1419,28 @@
       "confidence_score": 1.0,
       "source": "context_citiescontext",
       "target": "context_citiescontext_usecities"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "context_citiescontext"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "context_citiescontext_citiesproviders"
     },
     {
       "relation": "imports",
@@ -2009,236 +1562,6 @@
       "confidence_score": 1.0,
       "source": "components_map_map",
       "target": "context_citiescontext_usecities"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/context/FakeAuthContext.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "context_fakeauthcontext",
-      "target": "context_fakeauthcontext_authcontext",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/context/FakeAuthContext.jsx",
-      "source_location": "L28",
-      "weight": 1.0,
-      "source": "context_fakeauthcontext",
-      "target": "context_fakeauthcontext_authproviders",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/context/FakeAuthContext.jsx",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "context_fakeauthcontext",
-      "target": "context_fakeauthcontext_fake_user",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/context/FakeAuthContext.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "context_fakeauthcontext",
-      "target": "context_fakeauthcontext_initialstate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/context/FakeAuthContext.jsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "context_fakeauthcontext",
-      "target": "context_fakeauthcontext_reducer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/context/FakeAuthContext.jsx",
-      "source_location": "L47",
-      "weight": 1.0,
-      "source": "context_fakeauthcontext",
-      "target": "context_fakeauthcontext_useauth",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/pages/Login.jsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "pages_login_login",
-      "target": "context_fakeauthcontext_useauth"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/pages/ProtectedRoute.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "pages_protectedroute_protectedroute",
-      "target": "context_fakeauthcontext_useauth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/index.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_index",
-      "target": "src_index_root"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/index.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_index",
-      "target": "src_index_rootelement"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AppLayout.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_applayout",
-      "target": "components_map"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AppLayout.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_applayout",
-      "target": "components_map_map"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AppLayout.jsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_applayout",
-      "target": "components_sidebar"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AppLayout.jsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_applayout",
-      "target": "components_sidebar_sidebar"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AppLayout.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_applayout",
-      "target": "pages_applayout_applayout"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Homepage.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_homepage",
-      "target": "components_pagenav"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Homepage.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_homepage",
-      "target": "components_pagenav_pagenav"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Homepage.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_homepage",
-      "target": "pages_homepage_homepage"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Login.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_login",
-      "target": "components_pagenav"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Login.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_login",
-      "target": "components_pagenav_pagenav"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Login.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_login",
-      "target": "pages_login_login"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/ProtectedRoute.jsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "pages_protectedroute",
-      "target": "pages_protectedroute_protectedroute",
-      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -2842,6 +2165,17 @@
       "target": "components_form_form"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_form"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -2851,6 +2185,17 @@
       "confidence_score": 1.0,
       "source": "components_form_form",
       "target": "components_form_converttoemoji"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_form_form"
     },
     {
       "relation": "imports_from",
@@ -2927,6 +2272,17 @@
       "target": "hooks_usegeolocation_usegeolocation"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AppLayout.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_applayout",
+      "target": "components_map"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -2947,6 +2303,17 @@
       "weight": 1.0,
       "source": "components_map_map",
       "target": "hooks_useurlposition_useurlposition"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AppLayout.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_applayout",
+      "target": "components_map_map"
     },
     {
       "relation": "contains",
@@ -3059,6 +2426,236 @@
       "target": "jsconfig_paths"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_city"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_city_city"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_citylist"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_citylist_citylist"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_countrieslist"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_countrieslist_countrieslist"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_applayout"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_applayout_applayout"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_homepage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_homepage_homepage"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_login"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_login_login"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_pagenotfound"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_pagenotfound_pagenotfound"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_pricing"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_pricing_pricing"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_product"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_product_product"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_index",
+      "target": "src_app"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_index",
+      "target": "src_app_app"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/Button.jsx",
@@ -3160,6 +2757,38 @@
       "confidence_score": 1.0,
       "source": "hooks_useurlposition",
       "target": "hooks_useurlposition_useurlposition"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Homepage.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_homepage",
+      "target": "components_pagenav"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Homepage.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_homepage",
+      "target": "components_pagenav_pagenav"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Homepage.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_homepage",
+      "target": "pages_homepage_homepage"
     },
     {
       "relation": "contains",
@@ -3343,6 +2972,17 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/pages/Login.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_login",
+      "target": "components_pagenav"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/pages/Pricing.jsx",
       "source_location": "L2",
       "weight": 1.0,
@@ -3360,6 +3000,17 @@
       "confidence_score": 1.0,
       "source": "pages_product",
       "target": "components_pagenav"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Login.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_login",
+      "target": "components_pagenav_pagenav"
     },
     {
       "relation": "imports",
@@ -3391,6 +3042,28 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "components_sidebar",
+      "target": "components_sidebar_sidebar"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AppLayout.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_applayout",
+      "target": "components_sidebar"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AppLayout.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_applayout",
       "target": "components_sidebar_sidebar"
     },
     {
@@ -3438,6 +3111,66 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/components/User.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_user",
+      "target": "components_user_fake_user"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/User.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_user",
+      "target": "components_user_user"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_index",
+      "target": "src_index_root"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_index",
+      "target": "src_index_rootelement"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AppLayout.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_applayout",
+      "target": "pages_applayout_applayout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Login.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_login",
+      "target": "pages_login_login"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/pages/PageNotFound.jsx",
       "source_location": "L1",
       "weight": 1.0,
@@ -3467,5 +3200,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "2b87a371b0a23353ffb0b41808af0e3074ff5571"
+  "built_at_commit": "e60d8053ad46d9cfeef76557a2f11d1526ccda9b"
 }

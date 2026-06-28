@@ -3,6 +3,7 @@ import {
   useCallback,
   useContext,
   useEffect,
+  useMemo,
   useReducer,
   useRef,
 } from 'react';
@@ -23,24 +24,29 @@ function reducer(state, action) {
     case 'cities/loading':
       return { ...state, isLoading: action.payload, error: '' };
     case 'cities/cities':
-      return { ...state, cities: action.payload, isLoading: false };
+      return { ...state, cities: action.payload, isLoading: false, error: '' };
     case 'cities/created':
       return {
         ...state,
         cities: [...state.cities, action.payload],
         isLoading: false,
+        error: '',
       };
     case 'cities/current':
       return {
         ...state,
         currentCity: action.payload,
         isLoading: false,
+        error: '',
       };
     case 'cities/deleted':
       return {
         ...state,
         cities: state.cities.filter((city) => city.id !== action.payload),
+        currentCity:
+          state.currentCity.id === action.payload ? {} : state.currentCity,
         isLoading: false,
+        error: '',
       };
     case 'cities/rejected':
       return {
@@ -49,7 +55,8 @@ function reducer(state, action) {
         error: action.payload,
       };
     default:
-      throw new Error('Unknown Action type');
+      console.error('Unknown Action type');
+      return state;
   }
 }
 
@@ -157,19 +164,29 @@ function CitiesProviders({ children }) {
     }
   }, []);
 
+  useEffect(() => {
+    return () => {
+      cityControllerRef.current?.abort();
+      deleteControllerRef.current?.abort();
+      createControllerRef.current?.abort();
+    };
+  }, []);
+
+  const value = useMemo(
+    () => ({
+      isLoading,
+      cities,
+      error,
+      deleteCity,
+      currentCity,
+      getCity,
+      createCity,
+    }),
+    [isLoading, cities, error, deleteCity, currentCity, getCity, createCity]
+  );
+
   return (
-    <CitiesContext.Provider
-      value={{
-        isLoading,
-        cities,
-        error,
-        deleteCity,
-        currentCity,
-        getCity,
-        createCity,
-      }}>
-      {children}
-    </CitiesContext.Provider>
+    <CitiesContext.Provider value={value}>{children}</CitiesContext.Provider>
   );
 }
 

@@ -1,16 +1,16 @@
-# Graph Report - WorlldWise  (2026-06-27)
+# Graph Report - WorlldWise  (2026-06-22)
 
 ## Corpus Check
-- 41 files · ~32,105 words
+- 39 files · ~31,812 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 142 nodes · 195 edges · 16 communities (13 shown, 3 thin omitted)
-- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.8)
+- 131 nodes · 180 edges · 15 communities (12 shown, 3 thin omitted)
+- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2b87a371`
+- Built from commit: `e60d8053`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -27,7 +27,6 @@
 - [[_COMMUNITY_Community 9|Community 9]]
 - [[_COMMUNITY_Vite Config|Vite Config]]
 - [[_COMMUNITY_Community 13|Community 13]]
-- [[_COMMUNITY_Community 15|Community 15]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `useCities()` - 12 edges
@@ -35,32 +34,32 @@
 3. `compilerOptions` - 8 edges
 4. `Map()` - 5 edges
 5. `PageNav()` - 5 edges
-6. `useAuth()` - 4 edges
-7. `CityItem()` - 4 edges
-8. `Form()` - 4 edges
-9. `Button()` - 4 edges
-10. `City()` - 4 edges
+6. `CityItem()` - 4 edges
+7. `Form()` - 4 edges
+8. `Button()` - 4 edges
+9. `City()` - 4 edges
+10. `ButtonBack()` - 3 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Form()` --calls--> `useCities()`  [INFERRED]
   src/components/Form.jsx → src/context/CitiesContext.jsx
-- `Login()` --calls--> `useAuth()`  [INFERRED]
-  src/pages/Login.jsx → src/context/FakeAuthContext.jsx
-- `ProtectedRoute()` --calls--> `useAuth()`  [INFERRED]
-  src/pages/ProtectedRoute.jsx → src/context/FakeAuthContext.jsx
 - `Map()` --calls--> `useUrlPosition()`  [INFERRED]
   src/components/Map.jsx → src/hooks/useUrlPosition.js
-- `User()` --calls--> `useAuth()`  [INFERRED]
-  src/components/User.jsx → src/context/FakeAuthContext.jsx
+- `City()` --calls--> `useCities()`  [EXTRACTED]
+  src/components/City.jsx → src/context/CitiesContext.jsx
+- `Map()` --calls--> `useCities()`  [EXTRACTED]
+  src/components/Map.jsx → src/context/CitiesContext.jsx
+- `CityItem()` --calls--> `useCities()`  [EXTRACTED]
+  src/components/CityItem.jsx → src/context/CitiesContext.jsx
 
 ## Import Cycles
 - None detected.
 
-## Communities (16 total, 3 thin omitted)
+## Communities (15 total, 3 thin omitted)
 
 ### Community 0 - "Pages and App"
 Cohesion: 0.17
-Nodes (11): Logo(), PageNav(), Homepage(), Login(), PageNotFound(), Pricing(), Product(), ProtectedRoute() (+3 more)
+Nodes (11): Logo(), PageNav(), CitiesProviders(), Homepage(), Login(), PageNotFound(), Pricing(), Product() (+3 more)
 
 ### Community 1 - "Dev Dependencies"
 Cohesion: 0.12
@@ -79,16 +78,12 @@ Cohesion: 0.20
 Nodes (10): scripts, build, dev, format, lint, preview, server, start (+2 more)
 
 ### Community 5 - "City List Components"
-Cohesion: 0.20
-Nodes (9): CityItem(), formatDate(), CityList(), CountriesList(), Spinner(), CitiesContext, CitiesProviders(), initialState (+1 more)
+Cohesion: 0.22
+Nodes (8): CityItem(), formatDate(), CityList(), CountriesList(), Spinner(), CitiesContext, initialState, useCities()
 
 ### Community 6 - "City Detail"
 Cohesion: 0.39
 Nodes (5): ButtonBack(), City(), formatDate(), convertToEmoji(), Form()
-
-### Community 7 - "User Component"
-Cohesion: 0.22
-Nodes (6): User(), AuthContext, AuthProviders(), FAKE_USER, initialState, useAuth()
 
 ### Community 9 - "Community 9"
 Cohesion: 0.17
@@ -99,7 +94,7 @@ Cohesion: 0.27
 Nodes (4): Button(), Map(), useGeolocation(), useUrlPosition()
 
 ## Knowledge Gaps
-- **60 isolated node(s):** `cities`, `$schema`, `CitiesContext`, `initialState`, `AuthContext` (+55 more)
+- **56 isolated node(s):** `CitiesContext`, `initialState`, `name`, `version`, `description` (+51 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -107,11 +102,11 @@ Nodes (4): Button(), Map(), useGeolocation(), useUrlPosition()
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `devDependencies` connect `Dev Dependencies` to `Package Config`?**
-  _High betweenness centrality (0.053) - this node is a cross-community bridge._
+  _High betweenness centrality (0.063) - this node is a cross-community bridge._
 - **Why does `scripts` connect `Build Scripts` to `Package Config`?**
-  _High betweenness centrality (0.035) - this node is a cross-community bridge._
-- **What connects `cities`, `$schema`, `CitiesContext` to the rest of the system?**
-  _60 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.041) - this node is a cross-community bridge._
+- **What connects `CitiesContext`, `initialState`, `name` to the rest of the system?**
+  _56 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Dev Dependencies` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Package Config` be split into smaller, more focused modules?**

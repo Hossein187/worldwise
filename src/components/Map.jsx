@@ -65,8 +65,10 @@ function ChangeCenter({ mapLat, mapLng, geoPos }) {
   const lastGeo = useRef(null);
 
   useEffect(() => {
-    if (mapLat && mapLng) map.setView([mapLat, mapLng]);
-    else if (geoPos && geoPos !== lastGeo.current) {
+    if (mapLat && mapLng) {
+      map.setView([mapLat, mapLng]);
+      lastGeo.current = null;
+    } else if (geoPos && geoPos !== lastGeo.current) {
       map.setView([geoPos.lat, geoPos.lng]);
       lastGeo.current = geoPos;
     }
