@@ -27,7 +27,7 @@
       "label": "$schema",
       "file_type": "code",
       "source_file": "data/cities.json",
-      "source_location": "L52",
+      "source_location": "L64",
       "_origin": "ast",
       "id": "data_cities_schema",
       "community": 15,
@@ -44,34 +44,114 @@
       "norm_label": "app.jsx"
     },
     {
-      "label": "App()",
+      "label": "Homepage",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "src_app_homepage",
+      "community": 0,
+      "norm_label": "homepage"
+    },
+    {
+      "label": "AppLayout",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "src_app_applayout",
+      "community": 0,
+      "norm_label": "applayout"
+    },
+    {
+      "label": "Login",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "src_app_login",
+      "community": 0,
+      "norm_label": "login"
+    },
+    {
+      "label": "PageNotFound",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "src_app_pagenotfound",
+      "community": 0,
+      "norm_label": "pagenotfound"
+    },
+    {
+      "label": "Pricing",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "src_app_pricing",
+      "community": 0,
+      "norm_label": "pricing"
+    },
+    {
+      "label": "Product",
       "file_type": "code",
       "source_file": "src/App.jsx",
       "source_location": "L18",
+      "_origin": "ast",
+      "id": "src_app_product",
+      "community": 0,
+      "norm_label": "product"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L20",
       "_origin": "ast",
       "id": "src_app_app",
       "community": 0,
       "norm_label": "app()"
     },
     {
-      "label": "User.jsx",
+      "label": "Map.jsx",
       "file_type": "code",
-      "source_file": "src/components/User.jsx",
+      "source_file": "src/components/Map.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "components_user",
-      "community": 7,
-      "norm_label": "user.jsx"
+      "id": "components_map",
+      "community": 13,
+      "norm_label": "map.jsx"
     },
     {
-      "label": "User()",
+      "label": "Map()",
       "file_type": "code",
-      "source_file": "src/components/User.jsx",
-      "source_location": "L5",
+      "source_file": "src/components/Map.jsx",
+      "source_location": "L17",
       "_origin": "ast",
-      "id": "components_user_user",
-      "community": 7,
-      "norm_label": "user()"
+      "id": "components_map_map",
+      "community": 13,
+      "norm_label": "map()"
+    },
+    {
+      "label": "ChangeCenter()",
+      "file_type": "code",
+      "source_file": "src/components/Map.jsx",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "components_map_changecenter",
+      "community": 13,
+      "norm_label": "changecenter()"
+    },
+    {
+      "label": "DetectClick()",
+      "file_type": "code",
+      "source_file": "src/components/Map.jsx",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "components_map_detectclick",
+      "community": 13,
+      "norm_label": "detectclick()"
     },
     {
       "label": "CitiesContext.jsx",
@@ -87,7 +167,7 @@
       "label": "CitiesContext",
       "file_type": "code",
       "source_file": "src/context/CitiesContext.jsx",
-      "source_location": "L12",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "context_citiescontext_citiescontext",
       "community": 5,
@@ -97,7 +177,7 @@
       "label": "initialState",
       "file_type": "code",
       "source_file": "src/context/CitiesContext.jsx",
-      "source_location": "L14",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "context_citiescontext_initialstate",
       "community": 5,
@@ -107,7 +187,7 @@
       "label": "reducer()",
       "file_type": "code",
       "source_file": "src/context/CitiesContext.jsx",
-      "source_location": "L21",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "context_citiescontext_reducer",
       "community": 5,
@@ -117,7 +197,7 @@
       "label": "CitiesProviders()",
       "file_type": "code",
       "source_file": "src/context/CitiesContext.jsx",
-      "source_location": "L56",
+      "source_location": "L63",
       "_origin": "ast",
       "id": "context_citiescontext_citiesproviders",
       "community": 5,
@@ -127,11 +207,31 @@
       "label": "useCities()",
       "file_type": "code",
       "source_file": "src/context/CitiesContext.jsx",
-      "source_location": "L176",
+      "source_location": "L193",
       "_origin": "ast",
       "id": "context_citiescontext_usecities",
       "community": 5,
       "norm_label": "usecities()"
+    },
+    {
+      "label": "User.jsx",
+      "file_type": "code",
+      "source_file": "src/components/User.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "user.jsx",
+      "id": "components_user"
+    },
+    {
+      "label": "User()",
+      "file_type": "code",
+      "source_file": "src/components/User.jsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "user()",
+      "id": "components_user_user"
     },
     {
       "label": "FakeAuthContext.jsx",
@@ -139,9 +239,9 @@
       "source_file": "src/context/FakeAuthContext.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "context_fakeauthcontext",
-      "community": 7,
-      "norm_label": "fakeauthcontext.jsx"
+      "community": 0,
+      "norm_label": "fakeauthcontext.jsx",
+      "id": "context_fakeauthcontext"
     },
     {
       "label": "AuthContext",
@@ -149,9 +249,9 @@
       "source_file": "src/context/FakeAuthContext.jsx",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "context_fakeauthcontext_authcontext",
-      "community": 7,
-      "norm_label": "authcontext"
+      "community": 0,
+      "norm_label": "authcontext",
+      "id": "context_fakeauthcontext_authcontext"
     },
     {
       "label": "initialState",
@@ -159,9 +259,9 @@
       "source_file": "src/context/FakeAuthContext.jsx",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "context_fakeauthcontext_initialstate",
-      "community": 7,
-      "norm_label": "initialstate"
+      "community": 0,
+      "norm_label": "initialstate",
+      "id": "context_fakeauthcontext_initialstate"
     },
     {
       "label": "reducer()",
@@ -169,9 +269,9 @@
       "source_file": "src/context/FakeAuthContext.jsx",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "context_fakeauthcontext_reducer",
-      "community": 7,
-      "norm_label": "reducer()"
+      "community": 0,
+      "norm_label": "reducer()",
+      "id": "context_fakeauthcontext_reducer"
     },
     {
       "label": "FAKE_USER",
@@ -179,9 +279,9 @@
       "source_file": "src/context/FakeAuthContext.jsx",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "context_fakeauthcontext_fake_user",
-      "community": 7,
-      "norm_label": "fake_user"
+      "community": 0,
+      "norm_label": "fake_user",
+      "id": "context_fakeauthcontext_fake_user"
     },
     {
       "label": "AuthProviders()",
@@ -189,9 +289,9 @@
       "source_file": "src/context/FakeAuthContext.jsx",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "context_fakeauthcontext_authproviders",
-      "community": 7,
-      "norm_label": "authproviders()"
+      "community": 0,
+      "norm_label": "authproviders()",
+      "id": "context_fakeauthcontext_authproviders"
     },
     {
       "label": "useAuth()",
@@ -199,9 +299,9 @@
       "source_file": "src/context/FakeAuthContext.jsx",
       "source_location": "L47",
       "_origin": "ast",
-      "id": "context_fakeauthcontext_useauth",
-      "community": 7,
-      "norm_label": "useauth()"
+      "community": 0,
+      "norm_label": "useauth()",
+      "id": "context_fakeauthcontext_useauth"
     },
     {
       "label": "index.jsx",
@@ -209,9 +309,9 @@
       "source_file": "src/index.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_index",
       "community": 0,
-      "norm_label": "index.jsx"
+      "norm_label": "index.jsx",
+      "id": "src_index"
     },
     {
       "label": "rootElement",
@@ -219,9 +319,9 @@
       "source_file": "src/index.jsx",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "src_index_rootelement",
       "community": 0,
-      "norm_label": "rootelement"
+      "norm_label": "rootelement",
+      "id": "src_index_rootelement"
     },
     {
       "label": "root",
@@ -229,9 +329,9 @@
       "source_file": "src/index.jsx",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "src_index_root",
       "community": 0,
-      "norm_label": "root"
+      "norm_label": "root",
+      "id": "src_index_root"
     },
     {
       "label": "AppLayout.jsx",
@@ -239,9 +339,9 @@
       "source_file": "src/pages/AppLayout.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "pages_applayout",
       "community": 3,
-      "norm_label": "applayout.jsx"
+      "norm_label": "applayout.jsx",
+      "id": "pages_applayout"
     },
     {
       "label": "AppLayout()",
@@ -249,9 +349,9 @@
       "source_file": "src/pages/AppLayout.jsx",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "pages_applayout_applayout",
       "community": 3,
-      "norm_label": "applayout()"
+      "norm_label": "applayout()",
+      "id": "pages_applayout_applayout"
     },
     {
       "label": "Homepage.jsx",
@@ -259,9 +359,9 @@
       "source_file": "src/pages/Homepage.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "pages_homepage",
       "community": 0,
-      "norm_label": "homepage.jsx"
+      "norm_label": "homepage.jsx",
+      "id": "pages_homepage"
     },
     {
       "label": "Homepage()",
@@ -269,9 +369,9 @@
       "source_file": "src/pages/Homepage.jsx",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "pages_homepage_homepage",
       "community": 0,
-      "norm_label": "homepage()"
+      "norm_label": "homepage()",
+      "id": "pages_homepage_homepage"
     },
     {
       "label": "Login.jsx",
@@ -279,9 +379,9 @@
       "source_file": "src/pages/Login.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "pages_login",
       "community": 0,
-      "norm_label": "login.jsx"
+      "norm_label": "login.jsx",
+      "id": "pages_login"
     },
     {
       "label": "Login()",
@@ -289,9 +389,9 @@
       "source_file": "src/pages/Login.jsx",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "pages_login_login",
       "community": 0,
-      "norm_label": "login()"
+      "norm_label": "login()",
+      "id": "pages_login_login"
     },
     {
       "label": "ProtectedRoute.jsx",
@@ -299,9 +399,9 @@
       "source_file": "src/pages/ProtectedRoute.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "pages_protectedroute",
       "community": 0,
-      "norm_label": "protectedroute.jsx"
+      "norm_label": "protectedroute.jsx",
+      "id": "pages_protectedroute"
     },
     {
       "label": "ProtectedRoute()",
@@ -309,9 +409,9 @@
       "source_file": "src/pages/ProtectedRoute.jsx",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "pages_protectedroute_protectedroute",
       "community": 0,
-      "norm_label": "protectedroute()"
+      "norm_label": "protectedroute()",
+      "id": "pages_protectedroute_protectedroute"
     },
     {
       "label": "CityItem.jsx",
@@ -844,46 +944,6 @@
       "id": "query"
     },
     {
-      "label": "Map.jsx",
-      "file_type": "code",
-      "source_file": "src/components/Map.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "map.jsx",
-      "id": "components_map"
-    },
-    {
-      "label": "Map()",
-      "file_type": "code",
-      "source_file": "src/components/Map.jsx",
-      "source_location": "L17",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "map()",
-      "id": "components_map_map"
-    },
-    {
-      "label": "ChangeCenter()",
-      "file_type": "code",
-      "source_file": "src/components/Map.jsx",
-      "source_location": "L63",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "changecenter()",
-      "id": "components_map_changecenter"
-    },
-    {
-      "label": "DetectClick()",
-      "file_type": "code",
-      "source_file": "src/components/Map.jsx",
-      "source_location": "L78",
-      "_origin": "ast",
-      "community": 13,
-      "norm_label": "detectclick()",
-      "id": "components_map_detectclick"
-    },
-    {
       "label": "jsconfig.json",
       "file_type": "code",
       "source_file": "jsconfig.json",
@@ -1249,7 +1309,7 @@
       "source_file": "src/components/Logo.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 3,
       "norm_label": "logo.jsx",
       "id": "components_logo"
     },
@@ -1259,7 +1319,7 @@
       "source_file": "src/components/Logo.jsx",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 0,
+      "community": 3,
       "norm_label": "logo()",
       "id": "components_logo_logo"
     },
@@ -1431,9 +1491,9 @@
       "source_file": "data/cities.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_cities",
-      "target": "data_cities_cities",
-      "confidence_score": 1.0
+      "target": "data_cities_cities"
     },
     {
       "relation": "contains",
@@ -1441,9 +1501,9 @@
       "source_file": "data/cities.json",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_cities",
-      "target": "data_cities_schema",
-      "confidence_score": 1.0
+      "target": "data_cities_schema"
     },
     {
       "relation": "imports_from",
@@ -1562,9 +1622,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "context_fakeauthcontext",
-      "confidence_score": 1.0
+      "target": "context_fakeauthcontext"
     },
     {
       "relation": "imports",
@@ -1573,9 +1633,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "context_fakeauthcontext_authproviders",
-      "confidence_score": 1.0
+      "target": "context_fakeauthcontext_authproviders"
     },
     {
       "relation": "imports_from",
@@ -1716,9 +1776,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "pages_protectedroute",
-      "confidence_score": 1.0
+      "target": "pages_protectedroute"
     },
     {
       "relation": "imports",
@@ -1727,9 +1787,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "pages_protectedroute_protectedroute",
-      "confidence_score": 1.0
+      "target": "pages_protectedroute_protectedroute"
     },
     {
       "relation": "contains",
@@ -1740,6 +1800,66 @@
       "confidence_score": 1.0,
       "source": "src_app",
       "target": "src_app_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_applayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_homepage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_login",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_pagenotfound",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_pricing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_product",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -1764,25 +1884,155 @@
       "target": "src_app_app"
     },
     {
-      "relation": "contains",
+      "relation": "imports_from",
+      "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/User.jsx",
-      "source_location": "L10",
+      "source_file": "src/components/Map.jsx",
+      "source_location": "L15",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "components_user",
-      "target": "components_user_user"
+      "source": "components_map",
+      "target": "components_button"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Map.jsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_map",
+      "target": "components_button_button"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Map.jsx",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_map",
+      "target": "components_map_changecenter"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Map.jsx",
+      "source_location": "L100",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_map",
+      "target": "components_map_detectclick"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Map.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_map",
+      "target": "components_map_map"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Map.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_map",
+      "target": "context_citiescontext"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Map.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_map",
+      "target": "context_citiescontext_usecities"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Map.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_map",
+      "target": "hooks_usegeolocation"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Map.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_map",
+      "target": "hooks_usegeolocation_usegeolocation"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AppLayout.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_applayout",
+      "target": "components_map"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Map.jsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_map_map",
+      "target": "context_citiescontext_usecities"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Map.jsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_map_map",
+      "target": "hooks_usegeolocation_usegeolocation"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
-      "source_file": "src/components/User.jsx",
-      "source_location": "L6",
+      "source_file": "src/components/Map.jsx",
+      "source_location": "L26",
       "weight": 1.0,
-      "source": "components_user_user",
-      "target": "context_fakeauthcontext_useauth"
+      "source": "components_map_map",
+      "target": "hooks_useurlposition_useurlposition"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/AppLayout.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_applayout",
+      "target": "components_map_map"
     },
     {
       "relation": "imports_from",
@@ -1826,17 +2076,6 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "components_countrieslist",
-      "target": "context_citiescontext"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Map.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_map",
       "target": "context_citiescontext"
     },
     {
@@ -1989,26 +2228,25 @@
       "target": "context_citiescontext_usecities"
     },
     {
-      "relation": "imports",
-      "context": "import",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/Map.jsx",
-      "source_location": "L12",
+      "source_file": "src/components/User.jsx",
+      "source_location": "L10",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "components_map",
-      "target": "context_citiescontext_usecities"
+      "source": "components_user",
+      "target": "components_user_user"
     },
     {
       "relation": "calls",
       "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Map.jsx",
-      "source_location": "L19",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/components/User.jsx",
+      "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_map_map",
-      "target": "context_citiescontext_usecities"
+      "source": "components_user_user",
+      "target": "context_fakeauthcontext_useauth"
     },
     {
       "relation": "contains",
@@ -2016,9 +2254,9 @@
       "source_file": "src/context/FakeAuthContext.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "context_fakeauthcontext",
-      "target": "context_fakeauthcontext_authcontext",
-      "confidence_score": 1.0
+      "target": "context_fakeauthcontext_authcontext"
     },
     {
       "relation": "contains",
@@ -2026,9 +2264,9 @@
       "source_file": "src/context/FakeAuthContext.jsx",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "context_fakeauthcontext",
-      "target": "context_fakeauthcontext_authproviders",
-      "confidence_score": 1.0
+      "target": "context_fakeauthcontext_authproviders"
     },
     {
       "relation": "contains",
@@ -2036,9 +2274,9 @@
       "source_file": "src/context/FakeAuthContext.jsx",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "context_fakeauthcontext",
-      "target": "context_fakeauthcontext_fake_user",
-      "confidence_score": 1.0
+      "target": "context_fakeauthcontext_fake_user"
     },
     {
       "relation": "contains",
@@ -2046,9 +2284,9 @@
       "source_file": "src/context/FakeAuthContext.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "context_fakeauthcontext",
-      "target": "context_fakeauthcontext_initialstate",
-      "confidence_score": 1.0
+      "target": "context_fakeauthcontext_initialstate"
     },
     {
       "relation": "contains",
@@ -2056,9 +2294,9 @@
       "source_file": "src/context/FakeAuthContext.jsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "context_fakeauthcontext",
-      "target": "context_fakeauthcontext_reducer",
-      "confidence_score": 1.0
+      "target": "context_fakeauthcontext_reducer"
     },
     {
       "relation": "contains",
@@ -2066,9 +2304,9 @@
       "source_file": "src/context/FakeAuthContext.jsx",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "context_fakeauthcontext",
-      "target": "context_fakeauthcontext_useauth",
-      "confidence_score": 1.0
+      "target": "context_fakeauthcontext_useauth"
     },
     {
       "relation": "calls",
@@ -2111,28 +2349,6 @@
       "confidence_score": 1.0,
       "source": "src_index",
       "target": "src_index_rootelement"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AppLayout.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_applayout",
-      "target": "components_map"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/AppLayout.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_applayout",
-      "target": "components_map_map"
     },
     {
       "relation": "imports_from",
@@ -2236,9 +2452,9 @@
       "source_file": "src/pages/ProtectedRoute.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_protectedroute",
-      "target": "pages_protectedroute_protectedroute",
-      "confidence_score": 1.0
+      "target": "pages_protectedroute_protectedroute"
     },
     {
       "relation": "imports_from",
@@ -2853,102 +3069,6 @@
       "target": "components_form_converttoemoji"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Map.jsx",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_map",
-      "target": "components_button"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Map.jsx",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_map",
-      "target": "components_button_button"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Map.jsx",
-      "source_location": "L78",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_map",
-      "target": "components_map_changecenter"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Map.jsx",
-      "source_location": "L100",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_map",
-      "target": "components_map_detectclick"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Map.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_map",
-      "target": "components_map_map"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Map.jsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_map",
-      "target": "hooks_usegeolocation"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Map.jsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_map",
-      "target": "hooks_usegeolocation_usegeolocation"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Map.jsx",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_map_map",
-      "target": "hooks_usegeolocation_usegeolocation"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/components/Map.jsx",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "components_map_map",
-      "target": "hooks_useurlposition_useurlposition"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "jsconfig.json",
@@ -3467,5 +3587,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "2b87a371b0a23353ffb0b41808af0e3074ff5571"
+  "built_at_commit": "2ed250b05ddf16bf755800bbcc554ba3b7e53cf6"
 }

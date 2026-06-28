@@ -15,8 +15,8 @@
     "semantic_hash": "c25876703dc6cf18051d453b798b6c33"
   },
   "data/cities.json": {
-    "mtime": 1782164302.465085,
-    "ast_hash": "8f7a10cc5e6b5862e8e6e49363c45099",
+    "mtime": 1782682597.1349068,
+    "ast_hash": "c8ce99581915d6fbff95c440ead8f0f3",
     "semantic_hash": ""
   },
   "json-server.json": {
@@ -30,8 +30,8 @@
     "semantic_hash": ""
   },
   "src/App.jsx": {
-    "mtime": 1782170325.783525,
-    "ast_hash": "0b22b568eecd52ff20c656cd9f70da12",
+    "mtime": 1782682556.379972,
+    "ast_hash": "a61ba1f42cb398ae565835a2e84ca31e",
     "semantic_hash": ""
   },
   "src/components/AppNav.jsx": {
@@ -80,8 +80,8 @@
     "semantic_hash": "052b5030cfdd9d6c5cb1eff61d6ddd2a"
   },
   "src/components/Map.jsx": {
-    "mtime": 1781981236.1041975,
-    "ast_hash": "74f267cc16e6fb2bdfbed11c6d208d96",
+    "mtime": 1782658776.849206,
+    "ast_hash": "bbef2ebfbe344b296f14506e7c0a7048",
     "semantic_hash": ""
   },
   "src/components/Message.jsx": {
@@ -205,8 +205,8 @@
     "semantic_hash": ""
   },
   "src/context/CitiesContext.jsx": {
-    "mtime": 1782164268.2212725,
-    "ast_hash": "f0d4aca6a00bbba322ec87f344c55d41",
+    "mtime": 1782657250.4989102,
+    "ast_hash": "b8606ed1d874d94ab6189303839d2a9b",
     "semantic_hash": ""
   },
   "src/hooks/useGeolocation.js": {

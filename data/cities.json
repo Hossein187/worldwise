@@ -47,18 +47,6 @@
         "lng": 51.3896
       },
       "id": "81818181"
-    },
-    {
-      "cityName": "Qom",
-      "country": "Iran",
-      "emoji": "IR",
-      "date": "2026-06-28T15:01:27.928Z",
-      "notes": "",
-      "position": {
-        "lat": 34.668394119008106,
-        "lng": 50.877119676788816
-      },
-      "id": "YkNzUo7UeJw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

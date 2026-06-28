@@ -1,9 +1,12 @@
 node_modules/
 dist/
-build/
-.next/
-.cache/
-*.log
+dist-ssr/
+graphify-out/
+.eslintcache
+.claude/
+.kilo/
 .env
 .env.local
-.eslintcache
+.DS_Store
+Thumbs.db
+*.log

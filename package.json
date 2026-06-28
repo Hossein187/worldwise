@@ -1,5 +1,5 @@
 {
-  "name": "demo",
+  "name": "worldwise",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "server": "start http://localhost:8000/cities & node node_modules/json-server/lib/bin.js --watch data/cities.json --port 8000"
   },
   "keywords": [],
-  "author": "",
+  "author": "Hossein Agha",
   "license": "ISC",
   "type": "module",
   "private": "true",
