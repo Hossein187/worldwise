@@ -8,7 +8,7 @@ import {
   useRef,
 } from 'react';
 
-const BASE_URL = 'http://localhost:8000';
+const BASE_URL = 'https://6a41b0627602860e6520632b.mockapi.io';
 
 const CitiesContext = createContext();
 
