@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node node_modules/vite/bin/vite.js",
-    "dev": "node node_modules/vite/bin/vite.js",
-    "build": "node node_modules/vite/bin/vite.js build",
-    "preview": "node node_modules/vite/bin/vite.js preview",
-    "lint": "node node_modules/eslint/bin/eslint.js . --ext .js,.jsx,.ts,.tsx",
-    "format": "node node_modules/eslint/bin/eslint.js . --fix",
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "eslint . --fix",
     "typecheck": "tsc --noEmit",
-    "server": "start http://localhost:8000/cities & node node_modules/json-server/lib/bin.js --watch data/cities.json --port 8000"
+    "server": "json-server --watch data/cities.json --port 8000"
   },
   "keywords": [],
   "author": "Hossein Agha",
