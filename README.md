@@ -41,7 +41,7 @@ A travel-tracking app where you can log the cities and countries you've visited 
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/worldwise.git
+git clone https://github.com/Hossein187/worldwise.git
 cd worldwise
 
 # Install dependencies
